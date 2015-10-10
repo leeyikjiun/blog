@@ -1,0 +1,5079 @@
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.eugene
+# Parameters: (len = 10, percentMatch = 0.0)
+
+# Run progress: 0.00% complete, ETA 00:32:24
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.009 us/op
+# Warmup Iteration   2: 0.009 us/op
+# Warmup Iteration   3: 0.008 us/op
+Iteration   1: 0.008 us/op
+Iteration   2: 0.008 us/op
+Iteration   3: 0.008 us/op
+
+# Run progress: 0.31% complete, ETA 00:33:18
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.009 us/op
+# Warmup Iteration   2: 0.009 us/op
+# Warmup Iteration   3: 0.008 us/op
+Iteration   1: 0.008 us/op
+Iteration   2: 0.008 us/op
+Iteration   3: 0.008 us/op
+
+# Run progress: 0.62% complete, ETA 00:33:09
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.009 us/op
+# Warmup Iteration   2: 0.009 us/op
+# Warmup Iteration   3: 0.008 us/op
+Iteration   1: 0.008 us/op
+Iteration   2: 0.008 us/op
+Iteration   3: 0.008 us/op
+
+
+Result "eugene":
+  0.008 ñ(99.9%) 0.001 us/op [Average]
+  (min, avg, max) = (0.008, 0.008, 0.008), stdev = 0.001
+  CI (99.9%): [0.008, 0.008] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.eugene
+# Parameters: (len = 10, percentMatch = 0.2)
+
+# Run progress: 0.93% complete, ETA 00:33:10
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.045 us/op
+# Warmup Iteration   2: 0.040 us/op
+# Warmup Iteration   3: 0.034 us/op
+Iteration   1: 0.034 us/op
+Iteration   2: 0.034 us/op
+Iteration   3: 0.034 us/op
+
+# Run progress: 1.23% complete, ETA 00:33:13
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.045 us/op
+# Warmup Iteration   2: 0.039 us/op
+# Warmup Iteration   3: 0.034 us/op
+Iteration   1: 0.034 us/op
+Iteration   2: 0.034 us/op
+Iteration   3: 0.034 us/op
+
+# Run progress: 1.54% complete, ETA 00:33:06
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.033 us/op
+# Warmup Iteration   2: 0.028 us/op
+# Warmup Iteration   3: 0.028 us/op
+Iteration   1: 0.028 us/op
+Iteration   2: 0.028 us/op
+Iteration   3: 0.029 us/op
+
+
+Result "eugene":
+  0.032 ñ(99.9%) 0.005 us/op [Average]
+  (min, avg, max) = (0.028, 0.032, 0.034), stdev = 0.003
+  CI (99.9%): [0.027, 0.037] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.eugene
+# Parameters: (len = 10, percentMatch = 0.4)
+
+# Run progress: 1.85% complete, ETA 00:32:59
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.038 us/op
+# Warmup Iteration   2: 0.033 us/op
+# Warmup Iteration   3: 0.028 us/op
+Iteration   1: 0.028 us/op
+Iteration   2: 0.029 us/op
+Iteration   3: 0.029 us/op
+
+# Run progress: 2.16% complete, ETA 00:32:56
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.037 us/op
+# Warmup Iteration   2: 0.033 us/op
+# Warmup Iteration   3: 0.028 us/op
+Iteration   1: 0.028 us/op
+Iteration   2: 0.029 us/op
+Iteration   3: 0.029 us/op
+
+# Run progress: 2.47% complete, ETA 00:32:49
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.042 us/op
+# Warmup Iteration   2: 0.040 us/op
+# Warmup Iteration   3: 0.033 us/op
+Iteration   1: 0.033 us/op
+Iteration   2: 0.033 us/op
+Iteration   3: 0.034 us/op
+
+
+Result "eugene":
+  0.030 ñ(99.9%) 0.004 us/op [Average]
+  (min, avg, max) = (0.028, 0.030, 0.034), stdev = 0.002
+  CI (99.9%): [0.026, 0.034] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.eugene
+# Parameters: (len = 10, percentMatch = 0.6)
+
+# Run progress: 2.78% complete, ETA 00:32:43
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.038 us/op
+# Warmup Iteration   2: 0.035 us/op
+# Warmup Iteration   3: 0.030 us/op
+Iteration   1: 0.030 us/op
+Iteration   2: 0.030 us/op
+Iteration   3: 0.030 us/op
+
+# Run progress: 3.09% complete, ETA 00:32:38
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.036 us/op
+# Warmup Iteration   2: 0.034 us/op
+# Warmup Iteration   3: 0.027 us/op
+Iteration   1: 0.028 us/op
+Iteration   2: 0.028 us/op
+Iteration   3: 0.028 us/op
+
+# Run progress: 3.40% complete, ETA 00:32:32
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.035 us/op
+# Warmup Iteration   2: 0.032 us/op
+# Warmup Iteration   3: 0.028 us/op
+Iteration   1: 0.028 us/op
+Iteration   2: 0.028 us/op
+Iteration   3: 0.029 us/op
+
+
+Result "eugene":
+  0.029 ñ(99.9%) 0.002 us/op [Average]
+  (min, avg, max) = (0.028, 0.029, 0.030), stdev = 0.001
+  CI (99.9%): [0.027, 0.031] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.eugene
+# Parameters: (len = 10, percentMatch = 0.8)
+
+# Run progress: 3.70% complete, ETA 00:32:25
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.037 us/op
+# Warmup Iteration   2: 0.035 us/op
+# Warmup Iteration   3: 0.029 us/op
+Iteration   1: 0.030 us/op
+Iteration   2: 0.029 us/op
+Iteration   3: 0.030 us/op
+
+# Run progress: 4.01% complete, ETA 00:32:20
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.034 us/op
+# Warmup Iteration   2: 0.030 us/op
+# Warmup Iteration   3: 0.029 us/op
+Iteration   1: 0.030 us/op
+Iteration   2: 0.030 us/op
+Iteration   3: 0.030 us/op
+
+# Run progress: 4.32% complete, ETA 00:32:13
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.035 us/op
+# Warmup Iteration   2: 0.031 us/op
+# Warmup Iteration   3: 0.027 us/op
+Iteration   1: 0.027 us/op
+Iteration   2: 0.028 us/op
+Iteration   3: 0.028 us/op
+
+
+Result "eugene":
+  0.029 ñ(99.9%) 0.002 us/op [Average]
+  (min, avg, max) = (0.027, 0.029, 0.030), stdev = 0.001
+  CI (99.9%): [0.027, 0.031] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.eugene
+# Parameters: (len = 10, percentMatch = 1.0)
+
+# Run progress: 4.63% complete, ETA 00:32:07
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.024 us/op
+# Warmup Iteration   2: 0.021 us/op
+# Warmup Iteration   3: 0.021 us/op
+Iteration   1: 0.021 us/op
+Iteration   2: 0.021 us/op
+Iteration   3: 0.021 us/op
+
+# Run progress: 4.94% complete, ETA 00:32:02
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.025 us/op
+# Warmup Iteration   2: 0.023 us/op
+# Warmup Iteration   3: 0.021 us/op
+Iteration   1: 0.021 us/op
+Iteration   2: 0.021 us/op
+Iteration   3: 0.020 us/op
+
+# Run progress: 5.25% complete, ETA 00:31:55
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.025 us/op
+# Warmup Iteration   2: 0.022 us/op
+# Warmup Iteration   3: 0.021 us/op
+Iteration   1: 0.021 us/op
+Iteration   2: 0.021 us/op
+Iteration   3: 0.021 us/op
+
+
+Result "eugene":
+  0.021 ñ(99.9%) 0.001 us/op [Average]
+  (min, avg, max) = (0.020, 0.021, 0.021), stdev = 0.001
+  CI (99.9%): [0.020, 0.021] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.eugene
+# Parameters: (len = 100, percentMatch = 0.0)
+
+# Run progress: 5.56% complete, ETA 00:31:48
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.026 us/op
+# Warmup Iteration   2: 0.027 us/op
+# Warmup Iteration   3: 0.025 us/op
+Iteration   1: 0.025 us/op
+Iteration   2: 0.024 us/op
+Iteration   3: 0.025 us/op
+
+# Run progress: 5.86% complete, ETA 00:31:42
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.026 us/op
+# Warmup Iteration   2: 0.026 us/op
+# Warmup Iteration   3: 0.024 us/op
+Iteration   1: 0.024 us/op
+Iteration   2: 0.024 us/op
+Iteration   3: 0.024 us/op
+
+# Run progress: 6.17% complete, ETA 00:31:35
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.083 us/op
+# Warmup Iteration   2: 0.072 us/op
+# Warmup Iteration   3: 0.072 us/op
+Iteration   1: 0.071 us/op
+Iteration   2: 0.071 us/op
+Iteration   3: 0.071 us/op
+
+
+Result "eugene":
+  0.040 ñ(99.9%) 0.039 us/op [Average]
+  (min, avg, max) = (0.024, 0.040, 0.071), stdev = 0.023
+  CI (99.9%): [0.001, 0.079] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.eugene
+# Parameters: (len = 100, percentMatch = 0.2)
+
+# Run progress: 6.48% complete, ETA 00:31:29
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.236 us/op
+# Warmup Iteration   2: 0.228 us/op
+# Warmup Iteration   3: 0.203 us/op
+Iteration   1: 0.204 us/op
+Iteration   2: 0.205 us/op
+Iteration   3: 0.214 us/op
+
+# Run progress: 6.79% complete, ETA 00:31:23
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.248 us/op
+# Warmup Iteration   2: 0.235 us/op
+# Warmup Iteration   3: 0.214 us/op
+Iteration   1: 0.213 us/op
+Iteration   2: 0.215 us/op
+Iteration   3: 0.213 us/op
+
+# Run progress: 7.10% complete, ETA 00:31:16
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.250 us/op
+# Warmup Iteration   2: 0.227 us/op
+# Warmup Iteration   3: 0.213 us/op
+Iteration   1: 0.215 us/op
+Iteration   2: 0.215 us/op
+Iteration   3: 0.211 us/op
+
+
+Result "eugene":
+  0.212 ñ(99.9%) 0.007 us/op [Average]
+  (min, avg, max) = (0.204, 0.212, 0.215), stdev = 0.004
+  CI (99.9%): [0.205, 0.219] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.eugene
+# Parameters: (len = 100, percentMatch = 0.4)
+
+# Run progress: 7.41% complete, ETA 00:31:10
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.213 us/op
+# Warmup Iteration   2: 0.190 us/op
+# Warmup Iteration   3: 0.177 us/op
+Iteration   1: 0.185 us/op
+Iteration   2: 0.178 us/op
+Iteration   3: 0.180 us/op
+
+# Run progress: 7.72% complete, ETA 00:31:04
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.182 us/op
+# Warmup Iteration   2: 0.164 us/op
+# Warmup Iteration   3: 0.137 us/op
+Iteration   1: 0.135 us/op
+Iteration   2: 0.136 us/op
+Iteration   3: 0.135 us/op
+
+# Run progress: 8.02% complete, ETA 00:30:57
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.223 us/op
+# Warmup Iteration   2: 0.192 us/op
+# Warmup Iteration   3: 0.179 us/op
+Iteration   1: 0.180 us/op
+Iteration   2: 0.181 us/op
+Iteration   3: 0.180 us/op
+
+
+Result "eugene":
+  0.165 ñ(99.9%) 0.038 us/op [Average]
+  (min, avg, max) = (0.135, 0.165, 0.185), stdev = 0.023
+  CI (99.9%): [0.127, 0.203] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.eugene
+# Parameters: (len = 100, percentMatch = 0.6)
+
+# Run progress: 8.33% complete, ETA 00:30:51
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.173 us/op
+# Warmup Iteration   2: 0.153 us/op
+# Warmup Iteration   3: 0.142 us/op
+Iteration   1: 0.142 us/op
+Iteration   2: 0.143 us/op
+Iteration   3: 0.144 us/op
+
+# Run progress: 8.64% complete, ETA 00:30:45
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.160 us/op
+# Warmup Iteration   2: 0.152 us/op
+# Warmup Iteration   3: 0.153 us/op
+Iteration   1: 0.146 us/op
+Iteration   2: 0.144 us/op
+Iteration   3: 0.147 us/op
+
+# Run progress: 8.95% complete, ETA 00:30:39
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.223 us/op
+# Warmup Iteration   2: 0.203 us/op
+# Warmup Iteration   3: 0.154 us/op
+Iteration   1: 0.154 us/op
+Iteration   2: 0.153 us/op
+Iteration   3: 0.153 us/op
+
+
+Result "eugene":
+  0.147 ñ(99.9%) 0.008 us/op [Average]
+  (min, avg, max) = (0.142, 0.147, 0.154), stdev = 0.005
+  CI (99.9%): [0.140, 0.155] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.eugene
+# Parameters: (len = 100, percentMatch = 0.8)
+
+# Run progress: 9.26% complete, ETA 00:30:32
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.143 us/op
+# Warmup Iteration   2: 0.130 us/op
+# Warmup Iteration   3: 0.122 us/op
+Iteration   1: 0.124 us/op
+Iteration   2: 0.127 us/op
+Iteration   3: 0.126 us/op
+
+# Run progress: 9.57% complete, ETA 00:30:27
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.141 us/op
+# Warmup Iteration   2: 0.136 us/op
+# Warmup Iteration   3: 0.128 us/op
+Iteration   1: 0.128 us/op
+Iteration   2: 0.127 us/op
+Iteration   3: 0.127 us/op
+
+# Run progress: 9.88% complete, ETA 00:30:20
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.154 us/op
+# Warmup Iteration   2: 0.143 us/op
+# Warmup Iteration   3: 0.128 us/op
+Iteration   1: 0.127 us/op
+Iteration   2: 0.126 us/op
+Iteration   3: 0.126 us/op
+
+
+Result "eugene":
+  0.126 ñ(99.9%) 0.002 us/op [Average]
+  (min, avg, max) = (0.124, 0.126, 0.128), stdev = 0.001
+  CI (99.9%): [0.124, 0.129] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.eugene
+# Parameters: (len = 100, percentMatch = 1.0)
+
+# Run progress: 10.19% complete, ETA 00:30:14
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.073 us/op
+# Warmup Iteration   2: 0.064 us/op
+# Warmup Iteration   3: 0.062 us/op
+Iteration   1: 0.062 us/op
+Iteration   2: 0.062 us/op
+Iteration   3: 0.062 us/op
+
+# Run progress: 10.49% complete, ETA 00:30:08
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.073 us/op
+# Warmup Iteration   2: 0.066 us/op
+# Warmup Iteration   3: 0.061 us/op
+Iteration   1: 0.062 us/op
+Iteration   2: 0.062 us/op
+Iteration   3: 0.062 us/op
+
+# Run progress: 10.80% complete, ETA 00:30:02
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.073 us/op
+# Warmup Iteration   2: 0.066 us/op
+# Warmup Iteration   3: 0.062 us/op
+Iteration   1: 0.062 us/op
+Iteration   2: 0.062 us/op
+Iteration   3: 0.063 us/op
+
+
+Result "eugene":
+  0.062 ñ(99.9%) 0.001 us/op [Average]
+  (min, avg, max) = (0.062, 0.062, 0.063), stdev = 0.001
+  CI (99.9%): [0.062, 0.063] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.eugene
+# Parameters: (len = 1000, percentMatch = 0.0)
+
+# Run progress: 11.11% complete, ETA 00:29:56
+# Fork: 1 of 3
+# Warmup Iteration   1: 1.422 us/op
+# Warmup Iteration   2: 1.242 us/op
+# Warmup Iteration   3: 1.242 us/op
+Iteration   1: 1.249 us/op
+Iteration   2: 1.261 us/op
+Iteration   3: 1.268 us/op
+
+# Run progress: 11.42% complete, ETA 00:29:50
+# Fork: 2 of 3
+# Warmup Iteration   1: 1.215 us/op
+# Warmup Iteration   2: 1.063 us/op
+# Warmup Iteration   3: 1.057 us/op
+Iteration   1: 1.084 us/op
+Iteration   2: 1.107 us/op
+Iteration   3: 1.101 us/op
+
+# Run progress: 11.73% complete, ETA 00:29:44
+# Fork: 3 of 3
+# Warmup Iteration   1: 1.380 us/op
+# Warmup Iteration   2: 1.200 us/op
+# Warmup Iteration   3: 1.208 us/op
+Iteration   1: 1.219 us/op
+Iteration   2: 1.253 us/op
+Iteration   3: 1.221 us/op
+
+
+Result "eugene":
+  1.196 ñ(99.9%) 0.127 us/op [Average]
+  (min, avg, max) = (1.084, 1.196, 1.268), stdev = 0.076
+  CI (99.9%): [1.068, 1.323] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.eugene
+# Parameters: (len = 1000, percentMatch = 0.2)
+
+# Run progress: 12.04% complete, ETA 00:29:37
+# Fork: 1 of 3
+# Warmup Iteration   1: 2.206 us/op
+# Warmup Iteration   2: 2.133 us/op
+# Warmup Iteration   3: 2.154 us/op
+Iteration   1: 2.156 us/op
+Iteration   2: 2.157 us/op
+Iteration   3: 2.175 us/op
+
+# Run progress: 12.35% complete, ETA 00:29:31
+# Fork: 2 of 3
+# Warmup Iteration   1: 2.725 us/op
+# Warmup Iteration   2: 2.648 us/op
+# Warmup Iteration   3: 2.126 us/op
+Iteration   1: 2.163 us/op
+Iteration   2: 2.187 us/op
+Iteration   3: 2.177 us/op
+
+# Run progress: 12.65% complete, ETA 00:29:25
+# Fork: 3 of 3
+# Warmup Iteration   1: 2.330 us/op
+# Warmup Iteration   2: 2.158 us/op
+# Warmup Iteration   3: 2.184 us/op
+Iteration   1: 2.157 us/op
+Iteration   2: 2.174 us/op
+Iteration   3: 2.154 us/op
+
+
+Result "eugene":
+  2.167 ñ(99.9%) 0.020 us/op [Average]
+  (min, avg, max) = (2.154, 2.167, 2.187), stdev = 0.012
+  CI (99.9%): [2.147, 2.186] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.eugene
+# Parameters: (len = 1000, percentMatch = 0.4)
+
+# Run progress: 12.96% complete, ETA 00:29:18
+# Fork: 1 of 3
+# Warmup Iteration   1: 1.746 us/op
+# Warmup Iteration   2: 1.511 us/op
+# Warmup Iteration   3: 1.390 us/op
+Iteration   1: 1.387 us/op
+Iteration   2: 1.399 us/op
+Iteration   3: 1.401 us/op
+
+# Run progress: 13.27% complete, ETA 00:29:12
+# Fork: 2 of 3
+# Warmup Iteration   1: 2.361 us/op
+# Warmup Iteration   2: 2.341 us/op
+# Warmup Iteration   3: 1.758 us/op
+Iteration   1: 1.751 us/op
+Iteration   2: 1.754 us/op
+Iteration   3: 1.835 us/op
+
+# Run progress: 13.58% complete, ETA 00:29:06
+# Fork: 3 of 3
+# Warmup Iteration   1: 1.933 us/op
+# Warmup Iteration   2: 1.826 us/op
+# Warmup Iteration   3: 1.897 us/op
+Iteration   1: 1.905 us/op
+Iteration   2: 1.867 us/op
+Iteration   3: 1.831 us/op
+
+
+Result "eugene":
+  1.681 ñ(99.9%) 0.369 us/op [Average]
+  (min, avg, max) = (1.387, 1.681, 1.905), stdev = 0.219
+  CI (99.9%): [1.312, 2.050] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.eugene
+# Parameters: (len = 1000, percentMatch = 0.6)
+
+# Run progress: 13.89% complete, ETA 00:29:00
+# Fork: 1 of 3
+# Warmup Iteration   1: 1.594 us/op
+# Warmup Iteration   2: 1.585 us/op
+# Warmup Iteration   3: 1.487 us/op
+Iteration   1: 1.429 us/op
+Iteration   2: 1.387 us/op
+Iteration   3: 1.383 us/op
+
+# Run progress: 14.20% complete, ETA 00:28:54
+# Fork: 2 of 3
+# Warmup Iteration   1: 1.621 us/op
+# Warmup Iteration   2: 1.513 us/op
+# Warmup Iteration   3: 1.360 us/op
+Iteration   1: 1.384 us/op
+Iteration   2: 1.298 us/op
+Iteration   3: 1.308 us/op
+
+# Run progress: 14.51% complete, ETA 00:28:47
+# Fork: 3 of 3
+# Warmup Iteration   1: 1.664 us/op
+# Warmup Iteration   2: 1.524 us/op
+# Warmup Iteration   3: 1.449 us/op
+Iteration   1: 1.453 us/op
+Iteration   2: 1.461 us/op
+Iteration   3: 1.465 us/op
+
+
+Result "eugene":
+  1.397 ñ(99.9%) 0.105 us/op [Average]
+  (min, avg, max) = (1.298, 1.397, 1.465), stdev = 0.062
+  CI (99.9%): [1.292, 1.501] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.eugene
+# Parameters: (len = 1000, percentMatch = 0.8)
+
+# Run progress: 14.81% complete, ETA 00:28:41
+# Fork: 1 of 3
+# Warmup Iteration   1: 1.277 us/op
+# Warmup Iteration   2: 1.215 us/op
+# Warmup Iteration   3: 1.146 us/op
+Iteration   1: 1.146 us/op
+Iteration   2: 1.155 us/op
+Iteration   3: 1.170 us/op
+
+# Run progress: 15.12% complete, ETA 00:28:35
+# Fork: 2 of 3
+# Warmup Iteration   1: 1.335 us/op
+# Warmup Iteration   2: 1.204 us/op
+# Warmup Iteration   3: 1.136 us/op
+Iteration   1: 1.143 us/op
+Iteration   2: 1.151 us/op
+Iteration   3: 1.155 us/op
+
+# Run progress: 15.43% complete, ETA 00:28:29
+# Fork: 3 of 3
+# Warmup Iteration   1: 1.810 us/op
+# Warmup Iteration   2: 1.810 us/op
+# Warmup Iteration   3: 1.237 us/op
+Iteration   1: 1.283 us/op
+Iteration   2: 1.311 us/op
+Iteration   3: 1.319 us/op
+
+
+Result "eugene":
+  1.204 ñ(99.9%) 0.129 us/op [Average]
+  (min, avg, max) = (1.143, 1.204, 1.319), stdev = 0.077
+  CI (99.9%): [1.075, 1.332] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.eugene
+# Parameters: (len = 1000, percentMatch = 1.0)
+
+# Run progress: 15.74% complete, ETA 00:28:22
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.728 us/op
+# Warmup Iteration   2: 0.559 us/op
+# Warmup Iteration   3: 0.529 us/op
+Iteration   1: 0.533 us/op
+Iteration   2: 0.550 us/op
+Iteration   3: 0.540 us/op
+
+# Run progress: 16.05% complete, ETA 00:28:16
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.668 us/op
+# Warmup Iteration   2: 0.598 us/op
+# Warmup Iteration   3: 0.560 us/op
+Iteration   1: 0.560 us/op
+Iteration   2: 0.563 us/op
+Iteration   3: 0.566 us/op
+
+# Run progress: 16.36% complete, ETA 00:28:10
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.643 us/op
+# Warmup Iteration   2: 0.591 us/op
+# Warmup Iteration   3: 0.561 us/op
+Iteration   1: 0.563 us/op
+Iteration   2: 0.566 us/op
+Iteration   3: 0.567 us/op
+
+
+Result "eugene":
+  0.556 ñ(99.9%) 0.021 us/op [Average]
+  (min, avg, max) = (0.533, 0.556, 0.567), stdev = 0.013
+  CI (99.9%): [0.535, 0.577] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.eugene
+# Parameters: (len = 10000, percentMatch = 0.0)
+
+# Run progress: 16.67% complete, ETA 00:28:04
+# Fork: 1 of 3
+# Warmup Iteration   1: 16.075 us/op
+# Warmup Iteration   2: 14.804 us/op
+# Warmup Iteration   3: 14.435 us/op
+Iteration   1: 14.517 us/op
+Iteration   2: 14.585 us/op
+Iteration   3: 14.653 us/op
+
+# Run progress: 16.98% complete, ETA 00:27:58
+# Fork: 2 of 3
+# Warmup Iteration   1: 16.292 us/op
+# Warmup Iteration   2: 14.944 us/op
+# Warmup Iteration   3: 14.112 us/op
+Iteration   1: 14.161 us/op
+Iteration   2: 14.196 us/op
+Iteration   3: 14.242 us/op
+
+# Run progress: 17.28% complete, ETA 00:27:52
+# Fork: 3 of 3
+# Warmup Iteration   1: 16.173 us/op
+# Warmup Iteration   2: 17.551 us/op
+# Warmup Iteration   3: 24.621 us/op
+Iteration   1: 24.683 us/op
+Iteration   2: 24.744 us/op
+Iteration   3: 24.680 us/op
+
+
+Result "eugene":
+  17.829 ñ(99.9%) 8.668 us/op [Average]
+  (min, avg, max) = (14.161, 17.829, 24.744), stdev = 5.158
+  CI (99.9%): [9.161, 26.497] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.eugene
+# Parameters: (len = 10000, percentMatch = 0.2)
+
+# Run progress: 17.59% complete, ETA 00:27:45
+# Fork: 1 of 3
+# Warmup Iteration   1: 19.604 us/op
+# Warmup Iteration   2: 18.177 us/op
+# Warmup Iteration   3: 26.784 us/op
+Iteration   1: 30.054 us/op
+Iteration   2: 30.125 us/op
+Iteration   3: 30.116 us/op
+
+# Run progress: 17.90% complete, ETA 00:27:39
+# Fork: 2 of 3
+# Warmup Iteration   1: 23.044 us/op
+# Warmup Iteration   2: 20.206 us/op
+# Warmup Iteration   3: 22.988 us/op
+Iteration   1: 30.536 us/op
+Iteration   2: 30.770 us/op
+Iteration   3: 31.197 us/op
+
+# Run progress: 18.21% complete, ETA 00:27:33
+# Fork: 3 of 3
+# Warmup Iteration   1: 23.406 us/op
+# Warmup Iteration   2: 19.630 us/op
+# Warmup Iteration   3: 24.395 us/op
+Iteration   1: 31.789 us/op
+Iteration   2: 32.109 us/op
+Iteration   3: 31.185 us/op
+
+
+Result "eugene":
+  30.876 ñ(99.9%) 1.260 us/op [Average]
+  (min, avg, max) = (30.054, 30.876, 32.109), stdev = 0.750
+  CI (99.9%): [29.616, 32.136] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.eugene
+# Parameters: (len = 10000, percentMatch = 0.4)
+
+# Run progress: 18.52% complete, ETA 00:27:26
+# Fork: 1 of 3
+# Warmup Iteration   1: 21.232 us/op
+# Warmup Iteration   2: 26.545 us/op
+# Warmup Iteration   3: 26.994 us/op
+Iteration   1: 21.384 us/op
+Iteration   2: 21.574 us/op
+Iteration   3: 21.637 us/op
+
+# Run progress: 18.83% complete, ETA 00:27:20
+# Fork: 2 of 3
+# Warmup Iteration   1: 21.045 us/op
+# Warmup Iteration   2: 21.254 us/op
+# Warmup Iteration   3: 29.813 us/op
+Iteration   1: 23.443 us/op
+Iteration   2: 23.410 us/op
+Iteration   3: 23.361 us/op
+
+# Run progress: 19.14% complete, ETA 00:27:14
+# Fork: 3 of 3
+# Warmup Iteration   1: 21.263 us/op
+# Warmup Iteration   2: 21.487 us/op
+# Warmup Iteration   3: 29.248 us/op
+Iteration   1: 25.421 us/op
+Iteration   2: 25.497 us/op
+Iteration   3: 25.624 us/op
+
+
+Result "eugene":
+  23.484 ñ(99.9%) 2.903 us/op [Average]
+  (min, avg, max) = (21.384, 23.484, 25.624), stdev = 1.728
+  CI (99.9%): [20.580, 26.387] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.eugene
+# Parameters: (len = 10000, percentMatch = 0.6)
+
+# Run progress: 19.44% complete, ETA 00:27:08
+# Fork: 1 of 3
+# Warmup Iteration   1: 26.772 us/op
+# Warmup Iteration   2: 25.486 us/op
+# Warmup Iteration   3: 27.163 us/op
+Iteration   1: 43.669 us/op
+Iteration   2: 43.613 us/op
+Iteration   3: 43.646 us/op
+
+# Run progress: 19.75% complete, ETA 00:27:01
+# Fork: 2 of 3
+# Warmup Iteration   1: 40.527 us/op
+# Warmup Iteration   2: 39.642 us/op
+# Warmup Iteration   3: 37.495 us/op
+Iteration   1: 37.276 us/op
+Iteration   2: 38.445 us/op
+Iteration   3: 37.435 us/op
+
+# Run progress: 20.06% complete, ETA 00:26:55
+# Fork: 3 of 3
+# Warmup Iteration   1: 30.268 us/op
+# Warmup Iteration   2: 29.356 us/op
+# Warmup Iteration   3: 34.802 us/op
+Iteration   1: 33.162 us/op
+Iteration   2: 41.240 us/op
+Iteration   3: 42.011 us/op
+
+
+Result "eugene":
+  40.055 ñ(99.9%) 6.190 us/op [Average]
+  (min, avg, max) = (33.162, 40.055, 43.669), stdev = 3.683
+  CI (99.9%): [33.866, 46.245] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.eugene
+# Parameters: (len = 10000, percentMatch = 0.8)
+
+# Run progress: 20.37% complete, ETA 00:26:49
+# Fork: 1 of 3
+# Warmup Iteration   1: 20.377 us/op
+# Warmup Iteration   2: 17.958 us/op
+# Warmup Iteration   3: 21.647 us/op
+Iteration   1: 20.875 us/op
+Iteration   2: 20.579 us/op
+Iteration   3: 20.404 us/op
+
+# Run progress: 20.68% complete, ETA 00:26:43
+# Fork: 2 of 3
+# Warmup Iteration   1: 17.865 us/op
+# Warmup Iteration   2: 17.639 us/op
+# Warmup Iteration   3: 16.878 us/op
+Iteration   1: 20.613 us/op
+Iteration   2: 19.978 us/op
+Iteration   3: 20.056 us/op
+
+# Run progress: 20.99% complete, ETA 00:26:36
+# Fork: 3 of 3
+# Warmup Iteration   1: 17.573 us/op
+# Warmup Iteration   2: 17.526 us/op
+# Warmup Iteration   3: 16.942 us/op
+Iteration   1: 19.720 us/op
+Iteration   2: 19.565 us/op
+Iteration   3: 19.696 us/op
+
+
+Result "eugene":
+  20.165 ñ(99.9%) 0.788 us/op [Average]
+  (min, avg, max) = (19.565, 20.165, 20.875), stdev = 0.469
+  CI (99.9%): [19.377, 20.953] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.eugene
+# Parameters: (len = 10000, percentMatch = 1.0)
+
+# Run progress: 21.30% complete, ETA 00:26:30
+# Fork: 1 of 3
+# Warmup Iteration   1: 6.805 us/op
+# Warmup Iteration   2: 6.541 us/op
+# Warmup Iteration   3: 5.822 us/op
+Iteration   1: 5.706 us/op
+Iteration   2: 5.794 us/op
+Iteration   3: 5.701 us/op
+
+# Run progress: 21.60% complete, ETA 00:26:24
+# Fork: 2 of 3
+# Warmup Iteration   1: 6.633 us/op
+# Warmup Iteration   2: 6.325 us/op
+# Warmup Iteration   3: 5.622 us/op
+Iteration   1: 5.645 us/op
+Iteration   2: 5.761 us/op
+Iteration   3: 5.640 us/op
+
+# Run progress: 21.91% complete, ETA 00:26:18
+# Fork: 3 of 3
+# Warmup Iteration   1: 6.659 us/op
+# Warmup Iteration   2: 6.340 us/op
+# Warmup Iteration   3: 5.609 us/op
+Iteration   1: 5.630 us/op
+Iteration   2: 5.673 us/op
+Iteration   3: 5.680 us/op
+
+
+Result "eugene":
+  5.692 ñ(99.9%) 0.093 us/op [Average]
+  (min, avg, max) = (5.630, 5.692, 5.794), stdev = 0.056
+  CI (99.9%): [5.599, 5.786] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.eugene
+# Parameters: (len = 100000, percentMatch = 0.0)
+
+# Run progress: 22.22% complete, ETA 00:26:11
+# Fork: 1 of 3
+# Warmup Iteration   1: 163.403 us/op
+# Warmup Iteration   2: 152.977 us/op
+# Warmup Iteration   3: 148.511 us/op
+Iteration   1: 149.501 us/op
+Iteration   2: 150.250 us/op
+Iteration   3: 151.587 us/op
+
+# Run progress: 22.53% complete, ETA 00:26:05
+# Fork: 2 of 3
+# Warmup Iteration   1: 163.825 us/op
+# Warmup Iteration   2: 154.054 us/op
+# Warmup Iteration   3: 150.157 us/op
+Iteration   1: 149.632 us/op
+Iteration   2: 150.417 us/op
+Iteration   3: 152.026 us/op
+
+# Run progress: 22.84% complete, ETA 00:25:59
+# Fork: 3 of 3
+# Warmup Iteration   1: 163.689 us/op
+# Warmup Iteration   2: 152.748 us/op
+# Warmup Iteration   3: 148.379 us/op
+Iteration   1: 149.056 us/op
+Iteration   2: 149.522 us/op
+Iteration   3: 152.152 us/op
+
+
+Result "eugene":
+  150.460 ñ(99.9%) 1.978 us/op [Average]
+  (min, avg, max) = (149.056, 150.460, 152.152), stdev = 1.177
+  CI (99.9%): [148.482, 152.439] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.eugene
+# Parameters: (len = 100000, percentMatch = 0.2)
+
+# Run progress: 23.15% complete, ETA 00:25:53
+# Fork: 1 of 3
+# Warmup Iteration   1: 334.389 us/op
+# Warmup Iteration   2: 314.338 us/op
+# Warmup Iteration   3: 295.632 us/op
+Iteration   1: 295.003 us/op
+Iteration   2: 292.316 us/op
+Iteration   3: 294.123 us/op
+
+# Run progress: 23.46% complete, ETA 00:25:47
+# Fork: 2 of 3
+# Warmup Iteration   1: 307.278 us/op
+# Warmup Iteration   2: 299.313 us/op
+# Warmup Iteration   3: 301.280 us/op
+Iteration   1: 302.798 us/op
+Iteration   2: 302.778 us/op
+Iteration   3: 302.027 us/op
+
+# Run progress: 23.77% complete, ETA 00:25:40
+# Fork: 3 of 3
+# Warmup Iteration   1: 309.748 us/op
+# Warmup Iteration   2: 300.254 us/op
+# Warmup Iteration   3: 324.030 us/op
+Iteration   1: 314.297 us/op
+Iteration   2: 317.117 us/op
+Iteration   3: 319.314 us/op
+
+
+Result "eugene":
+  304.419 ñ(99.9%) 17.146 us/op [Average]
+  (min, avg, max) = (292.316, 304.419, 319.314), stdev = 10.203
+  CI (99.9%): [287.273, 321.565] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.eugene
+# Parameters: (len = 100000, percentMatch = 0.4)
+
+# Run progress: 24.07% complete, ETA 00:25:34
+# Fork: 1 of 3
+# Warmup Iteration   1: 440.694 us/op
+# Warmup Iteration   2: 425.798 us/op
+# Warmup Iteration   3: 426.346 us/op
+Iteration   1: 425.947 us/op
+Iteration   2: 427.381 us/op
+Iteration   3: 430.586 us/op
+
+# Run progress: 24.38% complete, ETA 00:25:28
+# Fork: 2 of 3
+# Warmup Iteration   1: 436.510 us/op
+# Warmup Iteration   2: 423.386 us/op
+# Warmup Iteration   3: 424.698 us/op
+Iteration   1: 428.181 us/op
+Iteration   2: 430.081 us/op
+Iteration   3: 434.512 us/op
+
+# Run progress: 24.69% complete, ETA 00:25:22
+# Fork: 3 of 3
+# Warmup Iteration   1: 443.064 us/op
+# Warmup Iteration   2: 431.166 us/op
+# Warmup Iteration   3: 434.928 us/op
+Iteration   1: 443.617 us/op
+Iteration   2: 443.686 us/op
+Iteration   3: 437.738 us/op
+
+
+Result "eugene":
+  433.526 ñ(99.9%) 11.398 us/op [Average]
+  (min, avg, max) = (425.947, 433.526, 443.686), stdev = 6.783
+  CI (99.9%): [422.128, 444.923] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.eugene
+# Parameters: (len = 100000, percentMatch = 0.6)
+
+# Run progress: 25.00% complete, ETA 00:25:16
+# Fork: 1 of 3
+# Warmup Iteration   1: 434.350 us/op
+# Warmup Iteration   2: 425.531 us/op
+# Warmup Iteration   3: 441.831 us/op
+Iteration   1: 443.375 us/op
+Iteration   2: 437.563 us/op
+Iteration   3: 424.393 us/op
+
+# Run progress: 25.31% complete, ETA 00:25:09
+# Fork: 2 of 3
+# Warmup Iteration   1: 415.283 us/op
+# Warmup Iteration   2: 404.329 us/op
+# Warmup Iteration   3: 402.113 us/op
+Iteration   1: 407.920 us/op
+Iteration   2: 413.974 us/op
+Iteration   3: 413.779 us/op
+
+# Run progress: 25.62% complete, ETA 00:25:03
+# Fork: 3 of 3
+# Warmup Iteration   1: 439.957 us/op
+# Warmup Iteration   2: 424.395 us/op
+# Warmup Iteration   3: 419.019 us/op
+Iteration   1: 413.430 us/op
+Iteration   2: 414.666 us/op
+Iteration   3: 416.650 us/op
+
+
+Result "eugene":
+  420.639 ñ(99.9%) 20.359 us/op [Average]
+  (min, avg, max) = (407.920, 420.639, 443.375), stdev = 12.116
+  CI (99.9%): [400.280, 440.998] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.eugene
+# Parameters: (len = 100000, percentMatch = 0.8)
+
+# Run progress: 25.93% complete, ETA 00:24:57
+# Fork: 1 of 3
+# Warmup Iteration   1: 262.435 us/op
+# Warmup Iteration   2: 250.152 us/op
+# Warmup Iteration   3: 251.187 us/op
+Iteration   1: 251.514 us/op
+Iteration   2: 252.098 us/op
+Iteration   3: 252.433 us/op
+
+# Run progress: 26.23% complete, ETA 00:24:51
+# Fork: 2 of 3
+# Warmup Iteration   1: 262.908 us/op
+# Warmup Iteration   2: 247.639 us/op
+# Warmup Iteration   3: 246.869 us/op
+Iteration   1: 247.199 us/op
+Iteration   2: 247.952 us/op
+Iteration   3: 248.144 us/op
+
+# Run progress: 26.54% complete, ETA 00:24:44
+# Fork: 3 of 3
+# Warmup Iteration   1: 262.257 us/op
+# Warmup Iteration   2: 247.280 us/op
+# Warmup Iteration   3: 248.239 us/op
+Iteration   1: 248.816 us/op
+Iteration   2: 249.512 us/op
+Iteration   3: 253.487 us/op
+
+
+Result "eugene":
+  250.128 ñ(99.9%) 3.838 us/op [Average]
+  (min, avg, max) = (247.199, 250.128, 253.487), stdev = 2.284
+  CI (99.9%): [246.290, 253.967] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.eugene
+# Parameters: (len = 100000, percentMatch = 1.0)
+
+# Run progress: 26.85% complete, ETA 00:24:38
+# Fork: 1 of 3
+# Warmup Iteration   1: 67.928 us/op
+# Warmup Iteration   2: 60.066 us/op
+# Warmup Iteration   3: 58.849 us/op
+Iteration   1: 60.506 us/op
+Iteration   2: 60.951 us/op
+Iteration   3: 60.607 us/op
+
+# Run progress: 27.16% complete, ETA 00:24:32
+# Fork: 2 of 3
+# Warmup Iteration   1: 66.914 us/op
+# Warmup Iteration   2: 59.614 us/op
+# Warmup Iteration   3: 59.382 us/op
+Iteration   1: 61.495 us/op
+Iteration   2: 74.655 us/op
+Iteration   3: 59.861 us/op
+
+# Run progress: 27.47% complete, ETA 00:24:26
+# Fork: 3 of 3
+# Warmup Iteration   1: 68.573 us/op
+# Warmup Iteration   2: 60.426 us/op
+# Warmup Iteration   3: 60.246 us/op
+Iteration   1: 59.115 us/op
+Iteration   2: 60.928 us/op
+Iteration   3: 62.352 us/op
+
+
+Result "eugene":
+  62.274 ñ(99.9%) 7.953 us/op [Average]
+  (min, avg, max) = (59.115, 62.274, 74.655), stdev = 4.732
+  CI (99.9%): [54.322, 70.227] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.eugene
+# Parameters: (len = 1000000, percentMatch = 0.0)
+
+# Run progress: 27.78% complete, ETA 00:24:19
+# Fork: 1 of 3
+# Warmup Iteration   1: 1852.305 us/op
+# Warmup Iteration   2: 1655.303 us/op
+# Warmup Iteration   3: 1633.375 us/op
+Iteration   1: 1643.343 us/op
+Iteration   2: 1632.013 us/op
+Iteration   3: 1665.352 us/op
+
+# Run progress: 28.09% complete, ETA 00:24:14
+# Fork: 2 of 3
+# Warmup Iteration   1: 2012.139 us/op
+# Warmup Iteration   2: 1696.517 us/op
+# Warmup Iteration   3: 1622.978 us/op
+Iteration   1: 1590.578 us/op
+Iteration   2: 1589.114 us/op
+Iteration   3: 1669.882 us/op
+
+# Run progress: 28.40% complete, ETA 00:24:08
+# Fork: 3 of 3
+# Warmup Iteration   1: 1912.419 us/op
+# Warmup Iteration   2: 1620.533 us/op
+# Warmup Iteration   3: 1590.333 us/op
+Iteration   1: 1588.921 us/op
+Iteration   2: 1590.309 us/op
+Iteration   3: 1586.614 us/op
+
+
+Result "eugene":
+  1617.347 ñ(99.9%) 59.271 us/op [Average]
+  (min, avg, max) = (1586.614, 1617.347, 1669.882), stdev = 35.271
+  CI (99.9%): [1558.076, 1676.619] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.eugene
+# Parameters: (len = 1000000, percentMatch = 0.2)
+
+# Run progress: 28.70% complete, ETA 00:24:02
+# Fork: 1 of 3
+# Warmup Iteration   1: 3249.194 us/op
+# Warmup Iteration   2: 3024.797 us/op
+# Warmup Iteration   3: 2977.302 us/op
+Iteration   1: 2916.130 us/op
+Iteration   2: 2919.895 us/op
+Iteration   3: 2919.979 us/op
+
+# Run progress: 29.01% complete, ETA 00:23:56
+# Fork: 2 of 3
+# Warmup Iteration   1: 3199.968 us/op
+# Warmup Iteration   2: 3036.250 us/op
+# Warmup Iteration   3: 2964.291 us/op
+Iteration   1: 2910.049 us/op
+Iteration   2: 2910.976 us/op
+Iteration   3: 2904.996 us/op
+
+# Run progress: 29.32% complete, ETA 00:23:50
+# Fork: 3 of 3
+# Warmup Iteration   1: 3083.145 us/op
+# Warmup Iteration   2: 2894.059 us/op
+# Warmup Iteration   3: 2839.302 us/op
+Iteration   1: 2792.832 us/op
+Iteration   2: 2793.317 us/op
+Iteration   3: 2786.240 us/op
+
+
+Result "eugene":
+  2872.713 ñ(99.9%) 103.602 us/op [Average]
+  (min, avg, max) = (2786.240, 2872.713, 2919.979), stdev = 61.652
+  CI (99.9%): [2769.110, 2976.315] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.eugene
+# Parameters: (len = 1000000, percentMatch = 0.4)
+
+# Run progress: 29.63% complete, ETA 00:23:44
+# Fork: 1 of 3
+# Warmup Iteration   1: 4365.735 us/op
+# Warmup Iteration   2: 4172.521 us/op
+# Warmup Iteration   3: 4155.286 us/op
+Iteration   1: 4162.450 us/op
+Iteration   2: 4186.130 us/op
+Iteration   3: 4161.492 us/op
+
+# Run progress: 29.94% complete, ETA 00:23:38
+# Fork: 2 of 3
+# Warmup Iteration   1: 4448.572 us/op
+# Warmup Iteration   2: 4246.705 us/op
+# Warmup Iteration   3: 4224.309 us/op
+Iteration   1: 4223.220 us/op
+Iteration   2: 4237.407 us/op
+Iteration   3: 4236.133 us/op
+
+# Run progress: 30.25% complete, ETA 00:23:31
+# Fork: 3 of 3
+# Warmup Iteration   1: 4436.759 us/op
+# Warmup Iteration   2: 4283.082 us/op
+# Warmup Iteration   3: 4251.185 us/op
+Iteration   1: 4238.629 us/op
+Iteration   2: 4245.350 us/op
+Iteration   3: 4240.407 us/op
+
+
+Result "eugene":
+  4214.580 ñ(99.9%) 58.205 us/op [Average]
+  (min, avg, max) = (4161.492, 4214.580, 4245.350), stdev = 34.637
+  CI (99.9%): [4156.375, 4272.785] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.eugene
+# Parameters: (len = 1000000, percentMatch = 0.6)
+
+# Run progress: 30.56% complete, ETA 00:23:25
+# Fork: 1 of 3
+# Warmup Iteration   1: 4226.605 us/op
+# Warmup Iteration   2: 4140.112 us/op
+# Warmup Iteration   3: 4090.316 us/op
+Iteration   1: 4083.286 us/op
+Iteration   2: 4087.816 us/op
+Iteration   3: 4095.719 us/op
+
+# Run progress: 30.86% complete, ETA 00:23:19
+# Fork: 2 of 3
+# Warmup Iteration   1: 4377.780 us/op
+# Warmup Iteration   2: 4324.542 us/op
+# Warmup Iteration   3: 4231.286 us/op
+Iteration   1: 4248.319 us/op
+Iteration   2: 4254.897 us/op
+Iteration   3: 4255.717 us/op
+
+# Run progress: 31.17% complete, ETA 00:23:13
+# Fork: 3 of 3
+# Warmup Iteration   1: 4250.075 us/op
+# Warmup Iteration   2: 4172.825 us/op
+# Warmup Iteration   3: 4116.728 us/op
+Iteration   1: 4105.263 us/op
+Iteration   2: 4112.875 us/op
+Iteration   3: 4116.646 us/op
+
+
+Result "eugene":
+  4151.171 ñ(99.9%) 129.609 us/op [Average]
+  (min, avg, max) = (4083.286, 4151.171, 4255.717), stdev = 77.128
+  CI (99.9%): [4021.562, 4280.779] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.eugene
+# Parameters: (len = 1000000, percentMatch = 0.8)
+
+# Run progress: 31.48% complete, ETA 00:23:07
+# Fork: 1 of 3
+# Warmup Iteration   1: 2721.406 us/op
+# Warmup Iteration   2: 2570.682 us/op
+# Warmup Iteration   3: 2575.089 us/op
+Iteration   1: 2580.812 us/op
+Iteration   2: 2578.727 us/op
+Iteration   3: 2575.710 us/op
+
+# Run progress: 31.79% complete, ETA 00:23:01
+# Fork: 2 of 3
+# Warmup Iteration   1: 2727.348 us/op
+# Warmup Iteration   2: 2578.538 us/op
+# Warmup Iteration   3: 2591.978 us/op
+Iteration   1: 2586.680 us/op
+Iteration   2: 2610.346 us/op
+Iteration   3: 2587.220 us/op
+
+# Run progress: 32.10% complete, ETA 00:22:54
+# Fork: 3 of 3
+# Warmup Iteration   1: 2718.397 us/op
+# Warmup Iteration   2: 2563.165 us/op
+# Warmup Iteration   3: 2557.890 us/op
+Iteration   1: 2567.714 us/op
+Iteration   2: 2566.928 us/op
+Iteration   3: 2569.576 us/op
+
+
+Result "eugene":
+  2580.413 ñ(99.9%) 22.758 us/op [Average]
+  (min, avg, max) = (2566.928, 2580.413, 2610.346), stdev = 13.543
+  CI (99.9%): [2557.655, 2603.170] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.eugene
+# Parameters: (len = 1000000, percentMatch = 1.0)
+
+# Run progress: 32.41% complete, ETA 00:22:48
+# Fork: 1 of 3
+# Warmup Iteration   1: 688.926 us/op
+# Warmup Iteration   2: 600.714 us/op
+# Warmup Iteration   3: 599.866 us/op
+Iteration   1: 601.262 us/op
+Iteration   2: 605.361 us/op
+Iteration   3: 607.361 us/op
+
+# Run progress: 32.72% complete, ETA 00:22:42
+# Fork: 2 of 3
+# Warmup Iteration   1: 689.713 us/op
+# Warmup Iteration   2: 604.400 us/op
+# Warmup Iteration   3: 605.935 us/op
+Iteration   1: 608.094 us/op
+Iteration   2: 607.078 us/op
+Iteration   3: 612.377 us/op
+
+# Run progress: 33.02% complete, ETA 00:22:36
+# Fork: 3 of 3
+# Warmup Iteration   1: 684.135 us/op
+# Warmup Iteration   2: 602.980 us/op
+# Warmup Iteration   3: 605.582 us/op
+Iteration   1: 603.234 us/op
+Iteration   2: 611.824 us/op
+Iteration   3: 609.084 us/op
+
+
+Result "eugene":
+  607.297 ñ(99.9%) 6.141 us/op [Average]
+  (min, avg, max) = (601.262, 607.297, 612.377), stdev = 3.655
+  CI (99.9%): [601.156, 613.438] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.google
+# Parameters: (len = 10, percentMatch = 0.0)
+
+# Run progress: 33.33% complete, ETA 00:22:30
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.009 us/op
+# Warmup Iteration   2: 0.009 us/op
+# Warmup Iteration   3: 0.008 us/op
+Iteration   1: 0.008 us/op
+Iteration   2: 0.008 us/op
+Iteration   3: 0.008 us/op
+
+# Run progress: 33.64% complete, ETA 00:22:23
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.009 us/op
+# Warmup Iteration   2: 0.009 us/op
+# Warmup Iteration   3: 0.008 us/op
+Iteration   1: 0.008 us/op
+Iteration   2: 0.008 us/op
+Iteration   3: 0.008 us/op
+
+# Run progress: 33.95% complete, ETA 00:22:17
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.009 us/op
+# Warmup Iteration   2: 0.009 us/op
+# Warmup Iteration   3: 0.008 us/op
+Iteration   1: 0.008 us/op
+Iteration   2: 0.008 us/op
+Iteration   3: 0.008 us/op
+
+
+Result "google":
+  0.008 ñ(99.9%) 0.001 us/op [Average]
+  (min, avg, max) = (0.008, 0.008, 0.008), stdev = 0.001
+  CI (99.9%): [0.008, 0.008] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.google
+# Parameters: (len = 10, percentMatch = 0.2)
+
+# Run progress: 34.26% complete, ETA 00:22:11
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.035 us/op
+# Warmup Iteration   2: 0.031 us/op
+# Warmup Iteration   3: 0.031 us/op
+Iteration   1: 0.031 us/op
+Iteration   2: 0.031 us/op
+Iteration   3: 0.031 us/op
+
+# Run progress: 34.57% complete, ETA 00:22:04
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.044 us/op
+# Warmup Iteration   2: 0.034 us/op
+# Warmup Iteration   3: 0.031 us/op
+Iteration   1: 0.031 us/op
+Iteration   2: 0.031 us/op
+Iteration   3: 0.031 us/op
+
+# Run progress: 34.88% complete, ETA 00:21:58
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.038 us/op
+# Warmup Iteration   2: 0.037 us/op
+# Warmup Iteration   3: 0.031 us/op
+Iteration   1: 0.032 us/op
+Iteration   2: 0.032 us/op
+Iteration   3: 0.032 us/op
+
+
+Result "google":
+  0.031 ñ(99.9%) 0.001 us/op [Average]
+  (min, avg, max) = (0.031, 0.031, 0.032), stdev = 0.001
+  CI (99.9%): [0.031, 0.032] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.google
+# Parameters: (len = 10, percentMatch = 0.4)
+
+# Run progress: 35.19% complete, ETA 00:21:52
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.038 us/op
+# Warmup Iteration   2: 0.034 us/op
+# Warmup Iteration   3: 0.032 us/op
+Iteration   1: 0.032 us/op
+Iteration   2: 0.032 us/op
+Iteration   3: 0.032 us/op
+
+# Run progress: 35.49% complete, ETA 00:21:46
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.038 us/op
+# Warmup Iteration   2: 0.034 us/op
+# Warmup Iteration   3: 0.032 us/op
+Iteration   1: 0.032 us/op
+Iteration   2: 0.032 us/op
+Iteration   3: 0.033 us/op
+
+# Run progress: 35.80% complete, ETA 00:21:39
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.037 us/op
+# Warmup Iteration   2: 0.032 us/op
+# Warmup Iteration   3: 0.031 us/op
+Iteration   1: 0.031 us/op
+Iteration   2: 0.031 us/op
+Iteration   3: 0.031 us/op
+
+
+Result "google":
+  0.032 ñ(99.9%) 0.001 us/op [Average]
+  (min, avg, max) = (0.031, 0.032, 0.033), stdev = 0.001
+  CI (99.9%): [0.031, 0.033] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.google
+# Parameters: (len = 10, percentMatch = 0.6)
+
+# Run progress: 36.11% complete, ETA 00:21:33
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.040 us/op
+# Warmup Iteration   2: 0.037 us/op
+# Warmup Iteration   3: 0.032 us/op
+Iteration   1: 0.033 us/op
+Iteration   2: 0.033 us/op
+Iteration   3: 0.033 us/op
+
+# Run progress: 36.42% complete, ETA 00:21:27
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.047 us/op
+# Warmup Iteration   2: 0.042 us/op
+# Warmup Iteration   3: 0.035 us/op
+Iteration   1: 0.035 us/op
+Iteration   2: 0.035 us/op
+Iteration   3: 0.035 us/op
+
+# Run progress: 36.73% complete, ETA 00:21:20
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.039 us/op
+# Warmup Iteration   2: 0.035 us/op
+# Warmup Iteration   3: 0.030 us/op
+Iteration   1: 0.031 us/op
+Iteration   2: 0.031 us/op
+Iteration   3: 0.031 us/op
+
+
+Result "google":
+  0.033 ñ(99.9%) 0.003 us/op [Average]
+  (min, avg, max) = (0.031, 0.033, 0.035), stdev = 0.002
+  CI (99.9%): [0.030, 0.036] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.google
+# Parameters: (len = 10, percentMatch = 0.8)
+
+# Run progress: 37.04% complete, ETA 00:21:14
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.041 us/op
+# Warmup Iteration   2: 0.039 us/op
+# Warmup Iteration   3: 0.034 us/op
+Iteration   1: 0.034 us/op
+Iteration   2: 0.034 us/op
+Iteration   3: 0.034 us/op
+
+# Run progress: 37.35% complete, ETA 00:21:08
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.039 us/op
+# Warmup Iteration   2: 0.036 us/op
+# Warmup Iteration   3: 0.031 us/op
+Iteration   1: 0.032 us/op
+Iteration   2: 0.032 us/op
+Iteration   3: 0.032 us/op
+
+# Run progress: 37.65% complete, ETA 00:21:02
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.041 us/op
+# Warmup Iteration   2: 0.037 us/op
+# Warmup Iteration   3: 0.033 us/op
+Iteration   1: 0.033 us/op
+Iteration   2: 0.033 us/op
+Iteration   3: 0.033 us/op
+
+
+Result "google":
+  0.033 ñ(99.9%) 0.002 us/op [Average]
+  (min, avg, max) = (0.032, 0.033, 0.034), stdev = 0.001
+  CI (99.9%): [0.031, 0.035] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.google
+# Parameters: (len = 10, percentMatch = 1.0)
+
+# Run progress: 37.96% complete, ETA 00:20:55
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.018 us/op
+# Warmup Iteration   2: 0.016 us/op
+# Warmup Iteration   3: 0.015 us/op
+Iteration   1: 0.016 us/op
+Iteration   2: 0.016 us/op
+Iteration   3: 0.016 us/op
+
+# Run progress: 38.27% complete, ETA 00:20:49
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.019 us/op
+# Warmup Iteration   2: 0.016 us/op
+# Warmup Iteration   3: 0.015 us/op
+Iteration   1: 0.016 us/op
+Iteration   2: 0.016 us/op
+Iteration   3: 0.016 us/op
+
+# Run progress: 38.58% complete, ETA 00:20:43
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.019 us/op
+# Warmup Iteration   2: 0.016 us/op
+# Warmup Iteration   3: 0.015 us/op
+Iteration   1: 0.016 us/op
+Iteration   2: 0.016 us/op
+Iteration   3: 0.016 us/op
+
+
+Result "google":
+  0.016 ñ(99.9%) 0.001 us/op [Average]
+  (min, avg, max) = (0.016, 0.016, 0.016), stdev = 0.001
+  CI (99.9%): [0.015, 0.016] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.google
+# Parameters: (len = 100, percentMatch = 0.0)
+
+# Run progress: 38.89% complete, ETA 00:20:36
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.026 us/op
+# Warmup Iteration   2: 0.026 us/op
+# Warmup Iteration   3: 0.024 us/op
+Iteration   1: 0.024 us/op
+Iteration   2: 0.024 us/op
+Iteration   3: 0.024 us/op
+
+# Run progress: 39.20% complete, ETA 00:20:30
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.026 us/op
+# Warmup Iteration   2: 0.026 us/op
+# Warmup Iteration   3: 0.025 us/op
+Iteration   1: 0.024 us/op
+Iteration   2: 0.024 us/op
+Iteration   3: 0.024 us/op
+
+# Run progress: 39.51% complete, ETA 00:20:24
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.026 us/op
+# Warmup Iteration   2: 0.026 us/op
+# Warmup Iteration   3: 0.024 us/op
+Iteration   1: 0.024 us/op
+Iteration   2: 0.024 us/op
+Iteration   3: 0.024 us/op
+
+
+Result "google":
+  0.024 ñ(99.9%) 0.001 us/op [Average]
+  (min, avg, max) = (0.024, 0.024, 0.024), stdev = 0.001
+  CI (99.9%): [0.024, 0.024] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.google
+# Parameters: (len = 100, percentMatch = 0.2)
+
+# Run progress: 39.81% complete, ETA 00:20:17
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.167 us/op
+# Warmup Iteration   2: 0.155 us/op
+# Warmup Iteration   3: 0.149 us/op
+Iteration   1: 0.149 us/op
+Iteration   2: 0.150 us/op
+Iteration   3: 0.150 us/op
+
+# Run progress: 40.12% complete, ETA 00:20:11
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.166 us/op
+# Warmup Iteration   2: 0.152 us/op
+# Warmup Iteration   3: 0.150 us/op
+Iteration   1: 0.151 us/op
+Iteration   2: 0.152 us/op
+Iteration   3: 0.152 us/op
+
+# Run progress: 40.43% complete, ETA 00:20:05
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.171 us/op
+# Warmup Iteration   2: 0.167 us/op
+# Warmup Iteration   3: 0.147 us/op
+Iteration   1: 0.146 us/op
+Iteration   2: 0.146 us/op
+Iteration   3: 0.147 us/op
+
+
+Result "google":
+  0.149 ñ(99.9%) 0.004 us/op [Average]
+  (min, avg, max) = (0.146, 0.149, 0.152), stdev = 0.002
+  CI (99.9%): [0.145, 0.153] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.google
+# Parameters: (len = 100, percentMatch = 0.4)
+
+# Run progress: 40.74% complete, ETA 00:19:59
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.187 us/op
+# Warmup Iteration   2: 0.166 us/op
+# Warmup Iteration   3: 0.156 us/op
+Iteration   1: 0.163 us/op
+Iteration   2: 0.161 us/op
+Iteration   3: 0.165 us/op
+
+# Run progress: 41.05% complete, ETA 00:19:53
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.208 us/op
+# Warmup Iteration   2: 0.190 us/op
+# Warmup Iteration   3: 0.180 us/op
+Iteration   1: 0.179 us/op
+Iteration   2: 0.180 us/op
+Iteration   3: 0.181 us/op
+
+# Run progress: 41.36% complete, ETA 00:19:46
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.200 us/op
+# Warmup Iteration   2: 0.188 us/op
+# Warmup Iteration   3: 0.180 us/op
+Iteration   1: 0.180 us/op
+Iteration   2: 0.181 us/op
+Iteration   3: 0.182 us/op
+
+
+Result "google":
+  0.175 ñ(99.9%) 0.015 us/op [Average]
+  (min, avg, max) = (0.161, 0.175, 0.182), stdev = 0.009
+  CI (99.9%): [0.160, 0.190] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.google
+# Parameters: (len = 100, percentMatch = 0.6)
+
+# Run progress: 41.67% complete, ETA 00:19:40
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.189 us/op
+# Warmup Iteration   2: 0.168 us/op
+# Warmup Iteration   3: 0.159 us/op
+Iteration   1: 0.159 us/op
+Iteration   2: 0.160 us/op
+Iteration   3: 0.160 us/op
+
+# Run progress: 41.98% complete, ETA 00:19:34
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.234 us/op
+# Warmup Iteration   2: 0.214 us/op
+# Warmup Iteration   3: 0.197 us/op
+Iteration   1: 0.197 us/op
+Iteration   2: 0.198 us/op
+Iteration   3: 0.197 us/op
+
+# Run progress: 42.28% complete, ETA 00:19:27
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.240 us/op
+# Warmup Iteration   2: 0.219 us/op
+# Warmup Iteration   3: 0.202 us/op
+Iteration   1: 0.202 us/op
+Iteration   2: 0.203 us/op
+Iteration   3: 0.203 us/op
+
+
+Result "google":
+  0.187 ñ(99.9%) 0.034 us/op [Average]
+  (min, avg, max) = (0.159, 0.187, 0.203), stdev = 0.020
+  CI (99.9%): [0.152, 0.221] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.google
+# Parameters: (len = 100, percentMatch = 0.8)
+
+# Run progress: 42.59% complete, ETA 00:19:21
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.203 us/op
+# Warmup Iteration   2: 0.187 us/op
+# Warmup Iteration   3: 0.183 us/op
+Iteration   1: 0.182 us/op
+Iteration   2: 0.182 us/op
+Iteration   3: 0.183 us/op
+
+# Run progress: 42.90% complete, ETA 00:19:15
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.201 us/op
+# Warmup Iteration   2: 0.185 us/op
+# Warmup Iteration   3: 0.177 us/op
+Iteration   1: 0.177 us/op
+Iteration   2: 0.177 us/op
+Iteration   3: 0.178 us/op
+
+# Run progress: 43.21% complete, ETA 00:19:09
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.203 us/op
+# Warmup Iteration   2: 0.190 us/op
+# Warmup Iteration   3: 0.187 us/op
+Iteration   1: 0.187 us/op
+Iteration   2: 0.187 us/op
+Iteration   3: 0.188 us/op
+
+
+Result "google":
+  0.182 ñ(99.9%) 0.007 us/op [Average]
+  (min, avg, max) = (0.177, 0.182, 0.188), stdev = 0.004
+  CI (99.9%): [0.175, 0.190] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.google
+# Parameters: (len = 100, percentMatch = 1.0)
+
+# Run progress: 43.52% complete, ETA 00:19:02
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.053 us/op
+# Warmup Iteration   2: 0.045 us/op
+# Warmup Iteration   3: 0.045 us/op
+Iteration   1: 0.046 us/op
+Iteration   2: 0.054 us/op
+Iteration   3: 0.051 us/op
+
+# Run progress: 43.83% complete, ETA 00:18:56
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.054 us/op
+# Warmup Iteration   2: 0.047 us/op
+# Warmup Iteration   3: 0.045 us/op
+Iteration   1: 0.045 us/op
+Iteration   2: 0.045 us/op
+Iteration   3: 0.045 us/op
+
+# Run progress: 44.14% complete, ETA 00:18:50
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.053 us/op
+# Warmup Iteration   2: 0.045 us/op
+# Warmup Iteration   3: 0.045 us/op
+Iteration   1: 0.045 us/op
+Iteration   2: 0.045 us/op
+Iteration   3: 0.058 us/op
+
+
+Result "google":
+  0.048 ñ(99.9%) 0.009 us/op [Average]
+  (min, avg, max) = (0.045, 0.048, 0.058), stdev = 0.005
+  CI (99.9%): [0.040, 0.057] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.google
+# Parameters: (len = 1000, percentMatch = 0.0)
+
+# Run progress: 44.44% complete, ETA 00:18:44
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.893 us/op
+# Warmup Iteration   2: 0.822 us/op
+# Warmup Iteration   3: 0.800 us/op
+Iteration   1: 0.807 us/op
+Iteration   2: 0.773 us/op
+Iteration   3: 0.769 us/op
+
+# Run progress: 44.75% complete, ETA 00:18:37
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.941 us/op
+# Warmup Iteration   2: 0.823 us/op
+# Warmup Iteration   3: 0.819 us/op
+Iteration   1: 0.799 us/op
+Iteration   2: 0.796 us/op
+Iteration   3: 0.804 us/op
+
+# Run progress: 45.06% complete, ETA 00:18:31
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.878 us/op
+# Warmup Iteration   2: 0.769 us/op
+# Warmup Iteration   3: 0.771 us/op
+Iteration   1: 0.780 us/op
+Iteration   2: 0.778 us/op
+Iteration   3: 0.780 us/op
+
+
+Result "google":
+  0.787 ñ(99.9%) 0.024 us/op [Average]
+  (min, avg, max) = (0.769, 0.787, 0.807), stdev = 0.014
+  CI (99.9%): [0.763, 0.811] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.google
+# Parameters: (len = 1000, percentMatch = 0.2)
+
+# Run progress: 45.37% complete, ETA 00:18:25
+# Fork: 1 of 3
+# Warmup Iteration   1: 1.705 us/op
+# Warmup Iteration   2: 1.527 us/op
+# Warmup Iteration   3: 1.482 us/op
+Iteration   1: 1.588 us/op
+Iteration   2: 1.541 us/op
+Iteration   3: 1.577 us/op
+
+# Run progress: 45.68% complete, ETA 00:18:19
+# Fork: 2 of 3
+# Warmup Iteration   1: 1.705 us/op
+# Warmup Iteration   2: 1.763 us/op
+# Warmup Iteration   3: 1.569 us/op
+Iteration   1: 1.546 us/op
+Iteration   2: 1.526 us/op
+Iteration   3: 1.516 us/op
+
+# Run progress: 45.99% complete, ETA 00:18:12
+# Fork: 3 of 3
+# Warmup Iteration   1: 1.749 us/op
+# Warmup Iteration   2: 1.682 us/op
+# Warmup Iteration   3: 1.545 us/op
+Iteration   1: 1.476 us/op
+Iteration   2: 1.448 us/op
+Iteration   3: 1.448 us/op
+
+
+Result "google":
+  1.518 ñ(99.9%) 0.087 us/op [Average]
+  (min, avg, max) = (1.448, 1.518, 1.588), stdev = 0.052
+  CI (99.9%): [1.432, 1.605] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.google
+# Parameters: (len = 1000, percentMatch = 0.4)
+
+# Run progress: 46.30% complete, ETA 00:18:06
+# Fork: 1 of 3
+# Warmup Iteration   1: 1.743 us/op
+# Warmup Iteration   2: 1.620 us/op
+# Warmup Iteration   3: 1.563 us/op
+Iteration   1: 1.570 us/op
+Iteration   2: 1.567 us/op
+Iteration   3: 1.583 us/op
+
+# Run progress: 46.60% complete, ETA 00:18:00
+# Fork: 2 of 3
+# Warmup Iteration   1: 1.816 us/op
+# Warmup Iteration   2: 1.669 us/op
+# Warmup Iteration   3: 1.671 us/op
+Iteration   1: 1.687 us/op
+Iteration   2: 1.688 us/op
+Iteration   3: 1.683 us/op
+
+# Run progress: 46.91% complete, ETA 00:17:54
+# Fork: 3 of 3
+# Warmup Iteration   1: 1.983 us/op
+# Warmup Iteration   2: 1.848 us/op
+# Warmup Iteration   3: 1.949 us/op
+Iteration   1: 1.957 us/op
+Iteration   2: 1.958 us/op
+Iteration   3: 1.988 us/op
+
+
+Result "google":
+  1.743 ñ(99.9%) 0.296 us/op [Average]
+  (min, avg, max) = (1.567, 1.743, 1.988), stdev = 0.176
+  CI (99.9%): [1.446, 2.039] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.google
+# Parameters: (len = 1000, percentMatch = 0.6)
+
+# Run progress: 47.22% complete, ETA 00:17:47
+# Fork: 1 of 3
+# Warmup Iteration   1: 2.353 us/op
+# Warmup Iteration   2: 2.215 us/op
+# Warmup Iteration   3: 1.969 us/op
+Iteration   1: 2.010 us/op
+Iteration   2: 2.100 us/op
+Iteration   3: 2.114 us/op
+
+# Run progress: 47.53% complete, ETA 00:17:41
+# Fork: 2 of 3
+# Warmup Iteration   1: 1.988 us/op
+# Warmup Iteration   2: 1.952 us/op
+# Warmup Iteration   3: 1.742 us/op
+Iteration   1: 1.714 us/op
+Iteration   2: 1.682 us/op
+Iteration   3: 1.660 us/op
+
+# Run progress: 47.84% complete, ETA 00:17:35
+# Fork: 3 of 3
+# Warmup Iteration   1: 2.246 us/op
+# Warmup Iteration   2: 2.174 us/op
+# Warmup Iteration   3: 1.995 us/op
+Iteration   1: 1.992 us/op
+Iteration   2: 2.040 us/op
+Iteration   3: 2.097 us/op
+
+
+Result "google":
+  1.934 ñ(99.9%) 0.322 us/op [Average]
+  (min, avg, max) = (1.660, 1.934, 2.114), stdev = 0.192
+  CI (99.9%): [1.612, 2.256] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.google
+# Parameters: (len = 1000, percentMatch = 0.8)
+
+# Run progress: 48.15% complete, ETA 00:17:29
+# Fork: 1 of 3
+# Warmup Iteration   1: 2.173 us/op
+# Warmup Iteration   2: 1.951 us/op
+# Warmup Iteration   3: 1.804 us/op
+Iteration   1: 1.811 us/op
+Iteration   2: 1.799 us/op
+Iteration   3: 1.854 us/op
+
+# Run progress: 48.46% complete, ETA 00:17:22
+# Fork: 2 of 3
+# Warmup Iteration   1: 1.990 us/op
+# Warmup Iteration   2: 1.866 us/op
+# Warmup Iteration   3: 1.840 us/op
+Iteration   1: 1.827 us/op
+Iteration   2: 1.817 us/op
+Iteration   3: 1.818 us/op
+
+# Run progress: 48.77% complete, ETA 00:17:16
+# Fork: 3 of 3
+# Warmup Iteration   1: 1.990 us/op
+# Warmup Iteration   2: 1.899 us/op
+# Warmup Iteration   3: 1.814 us/op
+Iteration   1: 1.814 us/op
+Iteration   2: 1.813 us/op
+Iteration   3: 1.813 us/op
+
+
+Result "google":
+  1.818 ñ(99.9%) 0.026 us/op [Average]
+  (min, avg, max) = (1.799, 1.818, 1.854), stdev = 0.015
+  CI (99.9%): [1.793, 1.844] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.google
+# Parameters: (len = 1000, percentMatch = 1.0)
+
+# Run progress: 49.07% complete, ETA 00:17:10
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.443 us/op
+# Warmup Iteration   2: 0.383 us/op
+# Warmup Iteration   3: 0.384 us/op
+Iteration   1: 0.408 us/op
+Iteration   2: 0.399 us/op
+Iteration   3: 0.391 us/op
+
+# Run progress: 49.38% complete, ETA 00:17:04
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.431 us/op
+# Warmup Iteration   2: 0.376 us/op
+# Warmup Iteration   3: 0.380 us/op
+Iteration   1: 0.383 us/op
+Iteration   2: 0.383 us/op
+Iteration   3: 0.381 us/op
+
+# Run progress: 49.69% complete, ETA 00:16:57
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.429 us/op
+# Warmup Iteration   2: 0.380 us/op
+# Warmup Iteration   3: 0.382 us/op
+Iteration   1: 0.377 us/op
+Iteration   2: 0.379 us/op
+Iteration   3: 0.383 us/op
+
+
+Result "google":
+  0.387 ñ(99.9%) 0.017 us/op [Average]
+  (min, avg, max) = (0.377, 0.387, 0.408), stdev = 0.010
+  CI (99.9%): [0.369, 0.404] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.google
+# Parameters: (len = 10000, percentMatch = 0.0)
+
+# Run progress: 50.00% complete, ETA 00:16:51
+# Fork: 1 of 3
+# Warmup Iteration   1: 9.162 us/op
+# Warmup Iteration   2: 8.925 us/op
+# Warmup Iteration   3: 7.948 us/op
+Iteration   1: 7.992 us/op
+Iteration   2: 7.990 us/op
+Iteration   3: 7.986 us/op
+
+# Run progress: 50.31% complete, ETA 00:16:45
+# Fork: 2 of 3
+# Warmup Iteration   1: 9.296 us/op
+# Warmup Iteration   2: 9.132 us/op
+# Warmup Iteration   3: 8.517 us/op
+Iteration   1: 8.660 us/op
+Iteration   2: 8.688 us/op
+Iteration   3: 8.494 us/op
+
+# Run progress: 50.62% complete, ETA 00:16:39
+# Fork: 3 of 3
+# Warmup Iteration   1: 9.341 us/op
+# Warmup Iteration   2: 9.337 us/op
+# Warmup Iteration   3: 8.054 us/op
+Iteration   1: 8.107 us/op
+Iteration   2: 8.121 us/op
+Iteration   3: 8.056 us/op
+
+
+Result "google":
+  8.233 ñ(99.9%) 0.495 us/op [Average]
+  (min, avg, max) = (7.986, 8.233, 8.688), stdev = 0.295
+  CI (99.9%): [7.737, 8.728] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.google
+# Parameters: (len = 10000, percentMatch = 0.2)
+
+# Run progress: 50.93% complete, ETA 00:16:32
+# Fork: 1 of 3
+# Warmup Iteration   1: 21.442 us/op
+# Warmup Iteration   2: 18.257 us/op
+# Warmup Iteration   3: 24.250 us/op
+Iteration   1: 17.349 us/op
+Iteration   2: 17.438 us/op
+Iteration   3: 17.599 us/op
+
+# Run progress: 51.23% complete, ETA 00:16:26
+# Fork: 2 of 3
+# Warmup Iteration   1: 22.029 us/op
+# Warmup Iteration   2: 18.614 us/op
+# Warmup Iteration   3: 23.838 us/op
+Iteration   1: 24.666 us/op
+Iteration   2: 24.702 us/op
+Iteration   3: 24.875 us/op
+
+# Run progress: 51.54% complete, ETA 00:16:20
+# Fork: 3 of 3
+# Warmup Iteration   1: 17.869 us/op
+# Warmup Iteration   2: 21.357 us/op
+# Warmup Iteration   3: 22.159 us/op
+Iteration   1: 20.453 us/op
+Iteration   2: 20.574 us/op
+Iteration   3: 20.668 us/op
+
+
+Result "google":
+  20.925 ñ(99.9%) 5.323 us/op [Average]
+  (min, avg, max) = (17.349, 20.925, 24.875), stdev = 3.168
+  CI (99.9%): [15.602, 26.248] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.google
+# Parameters: (len = 10000, percentMatch = 0.4)
+
+# Run progress: 51.85% complete, ETA 00:16:14
+# Fork: 1 of 3
+# Warmup Iteration   1: 38.707 us/op
+# Warmup Iteration   2: 37.769 us/op
+# Warmup Iteration   3: 33.678 us/op
+Iteration   1: 32.190 us/op
+Iteration   2: 35.840 us/op
+Iteration   3: 35.800 us/op
+
+# Run progress: 52.16% complete, ETA 00:16:07
+# Fork: 2 of 3
+# Warmup Iteration   1: 38.840 us/op
+# Warmup Iteration   2: 37.882 us/op
+# Warmup Iteration   3: 32.956 us/op
+Iteration   1: 31.981 us/op
+Iteration   2: 35.986 us/op
+Iteration   3: 36.127 us/op
+
+# Run progress: 52.47% complete, ETA 00:16:01
+# Fork: 3 of 3
+# Warmup Iteration   1: 38.729 us/op
+# Warmup Iteration   2: 38.304 us/op
+# Warmup Iteration   3: 33.544 us/op
+Iteration   1: 31.704 us/op
+Iteration   2: 36.207 us/op
+Iteration   3: 36.463 us/op
+
+
+Result "google":
+  34.700 ñ(99.9%) 3.477 us/op [Average]
+  (min, avg, max) = (31.704, 34.700, 36.463), stdev = 2.069
+  CI (99.9%): [31.223, 38.177] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.google
+# Parameters: (len = 10000, percentMatch = 0.6)
+
+# Run progress: 52.78% complete, ETA 00:15:55
+# Fork: 1 of 3
+# Warmup Iteration   1: 37.335 us/op
+# Warmup Iteration   2: 37.156 us/op
+# Warmup Iteration   3: 30.159 us/op
+Iteration   1: 32.092 us/op
+Iteration   2: 37.684 us/op
+Iteration   3: 38.549 us/op
+
+# Run progress: 53.09% complete, ETA 00:15:49
+# Fork: 2 of 3
+# Warmup Iteration   1: 36.514 us/op
+# Warmup Iteration   2: 36.530 us/op
+# Warmup Iteration   3: 27.392 us/op
+Iteration   1: 32.726 us/op
+Iteration   2: 38.587 us/op
+Iteration   3: 38.775 us/op
+
+# Run progress: 53.40% complete, ETA 00:15:42
+# Fork: 3 of 3
+# Warmup Iteration   1: 34.015 us/op
+# Warmup Iteration   2: 33.860 us/op
+# Warmup Iteration   3: 28.170 us/op
+Iteration   1: 35.879 us/op
+Iteration   2: 31.366 us/op
+Iteration   3: 31.483 us/op
+
+
+Result "google":
+  35.238 ñ(99.9%) 5.522 us/op [Average]
+  (min, avg, max) = (31.366, 35.238, 38.775), stdev = 3.286
+  CI (99.9%): [29.716, 40.760] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.google
+# Parameters: (len = 10000, percentMatch = 0.8)
+
+# Run progress: 53.70% complete, ETA 00:15:36
+# Fork: 1 of 3
+# Warmup Iteration   1: 21.586 us/op
+# Warmup Iteration   2: 19.535 us/op
+# Warmup Iteration   3: 24.885 us/op
+Iteration   1: 25.040 us/op
+Iteration   2: 24.841 us/op
+Iteration   3: 24.666 us/op
+
+# Run progress: 54.01% complete, ETA 00:15:30
+# Fork: 2 of 3
+# Warmup Iteration   1: 22.739 us/op
+# Warmup Iteration   2: 20.725 us/op
+# Warmup Iteration   3: 23.488 us/op
+Iteration   1: 23.131 us/op
+Iteration   2: 23.274 us/op
+Iteration   3: 23.161 us/op
+
+# Run progress: 54.32% complete, ETA 00:15:24
+# Fork: 3 of 3
+# Warmup Iteration   1: 22.801 us/op
+# Warmup Iteration   2: 21.637 us/op
+# Warmup Iteration   3: 25.686 us/op
+Iteration   1: 21.498 us/op
+Iteration   2: 21.639 us/op
+Iteration   3: 21.610 us/op
+
+
+Result "google":
+  23.207 ñ(99.9%) 2.384 us/op [Average]
+  (min, avg, max) = (21.498, 23.207, 25.040), stdev = 1.418
+  CI (99.9%): [20.823, 25.590] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.google
+# Parameters: (len = 10000, percentMatch = 1.0)
+
+# Run progress: 54.63% complete, ETA 00:15:17
+# Fork: 1 of 3
+# Warmup Iteration   1: 4.885 us/op
+# Warmup Iteration   2: 4.273 us/op
+# Warmup Iteration   3: 4.237 us/op
+Iteration   1: 4.413 us/op
+Iteration   2: 4.333 us/op
+Iteration   3: 4.328 us/op
+
+# Run progress: 54.94% complete, ETA 00:15:11
+# Fork: 2 of 3
+# Warmup Iteration   1: 4.924 us/op
+# Warmup Iteration   2: 4.280 us/op
+# Warmup Iteration   3: 4.165 us/op
+Iteration   1: 4.189 us/op
+Iteration   2: 4.214 us/op
+Iteration   3: 4.193 us/op
+
+# Run progress: 55.25% complete, ETA 00:15:05
+# Fork: 3 of 3
+# Warmup Iteration   1: 4.743 us/op
+# Warmup Iteration   2: 4.186 us/op
+# Warmup Iteration   3: 4.175 us/op
+Iteration   1: 4.199 us/op
+Iteration   2: 4.201 us/op
+Iteration   3: 4.213 us/op
+
+
+Result "google":
+  4.254 ñ(99.9%) 0.138 us/op [Average]
+  (min, avg, max) = (4.189, 4.254, 4.413), stdev = 0.082
+  CI (99.9%): [4.116, 4.392] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.google
+# Parameters: (len = 100000, percentMatch = 0.0)
+
+# Run progress: 55.56% complete, ETA 00:14:59
+# Fork: 1 of 3
+# Warmup Iteration   1: 95.279 us/op
+# Warmup Iteration   2: 83.805 us/op
+# Warmup Iteration   3: 84.755 us/op
+Iteration   1: 85.664 us/op
+Iteration   2: 86.527 us/op
+Iteration   3: 85.950 us/op
+
+# Run progress: 55.86% complete, ETA 00:14:52
+# Fork: 2 of 3
+# Warmup Iteration   1: 95.077 us/op
+# Warmup Iteration   2: 84.887 us/op
+# Warmup Iteration   3: 84.655 us/op
+Iteration   1: 85.579 us/op
+Iteration   2: 86.441 us/op
+Iteration   3: 86.038 us/op
+
+# Run progress: 56.17% complete, ETA 00:14:46
+# Fork: 3 of 3
+# Warmup Iteration   1: 96.064 us/op
+# Warmup Iteration   2: 84.253 us/op
+# Warmup Iteration   3: 84.907 us/op
+Iteration   1: 85.670 us/op
+Iteration   2: 85.961 us/op
+Iteration   3: 85.772 us/op
+
+
+Result "google":
+  85.956 ñ(99.9%) 0.567 us/op [Average]
+  (min, avg, max) = (85.579, 85.956, 86.527), stdev = 0.338
+  CI (99.9%): [85.389, 86.523] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.google
+# Parameters: (len = 100000, percentMatch = 0.2)
+
+# Run progress: 56.48% complete, ETA 00:14:40
+# Fork: 1 of 3
+# Warmup Iteration   1: 315.201 us/op
+# Warmup Iteration   2: 298.199 us/op
+# Warmup Iteration   3: 285.747 us/op
+Iteration   1: 288.432 us/op
+Iteration   2: 286.437 us/op
+Iteration   3: 290.770 us/op
+
+# Run progress: 56.79% complete, ETA 00:14:34
+# Fork: 2 of 3
+# Warmup Iteration   1: 302.800 us/op
+# Warmup Iteration   2: 287.605 us/op
+# Warmup Iteration   3: 299.285 us/op
+Iteration   1: 296.415 us/op
+Iteration   2: 302.057 us/op
+Iteration   3: 295.791 us/op
+
+# Run progress: 57.10% complete, ETA 00:14:27
+# Fork: 3 of 3
+# Warmup Iteration   1: 309.774 us/op
+# Warmup Iteration   2: 292.283 us/op
+# Warmup Iteration   3: 290.452 us/op
+Iteration   1: 291.468 us/op
+Iteration   2: 292.871 us/op
+Iteration   3: 299.786 us/op
+
+
+Result "google":
+  293.781 ñ(99.9%) 8.677 us/op [Average]
+  (min, avg, max) = (286.437, 293.781, 302.057), stdev = 5.164
+  CI (99.9%): [285.103, 302.458] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.google
+# Parameters: (len = 100000, percentMatch = 0.4)
+
+# Run progress: 57.41% complete, ETA 00:14:21
+# Fork: 1 of 3
+# Warmup Iteration   1: 457.812 us/op
+# Warmup Iteration   2: 442.503 us/op
+# Warmup Iteration   3: 433.790 us/op
+Iteration   1: 433.780 us/op
+Iteration   2: 433.265 us/op
+Iteration   3: 440.175 us/op
+
+# Run progress: 57.72% complete, ETA 00:14:15
+# Fork: 2 of 3
+# Warmup Iteration   1: 463.942 us/op
+# Warmup Iteration   2: 446.201 us/op
+# Warmup Iteration   3: 434.248 us/op
+Iteration   1: 439.120 us/op
+Iteration   2: 436.610 us/op
+Iteration   3: 436.042 us/op
+
+# Run progress: 58.02% complete, ETA 00:14:09
+# Fork: 3 of 3
+# Warmup Iteration   1: 440.915 us/op
+# Warmup Iteration   2: 426.698 us/op
+# Warmup Iteration   3: 430.502 us/op
+Iteration   1: 432.512 us/op
+Iteration   2: 434.300 us/op
+Iteration   3: 440.005 us/op
+
+
+Result "google":
+  436.201 ñ(99.9%) 4.995 us/op [Average]
+  (min, avg, max) = (432.512, 436.201, 440.175), stdev = 2.972
+  CI (99.9%): [431.206, 441.196] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.google
+# Parameters: (len = 100000, percentMatch = 0.6)
+
+# Run progress: 58.33% complete, ETA 00:14:02
+# Fork: 1 of 3
+# Warmup Iteration   1: 460.254 us/op
+# Warmup Iteration   2: 434.993 us/op
+# Warmup Iteration   3: 444.145 us/op
+Iteration   1: 431.828 us/op
+Iteration   2: 434.267 us/op
+Iteration   3: 441.149 us/op
+
+# Run progress: 58.64% complete, ETA 00:13:56
+# Fork: 2 of 3
+# Warmup Iteration   1: 450.107 us/op
+# Warmup Iteration   2: 430.286 us/op
+# Warmup Iteration   3: 421.963 us/op
+Iteration   1: 417.648 us/op
+Iteration   2: 420.987 us/op
+Iteration   3: 422.805 us/op
+
+# Run progress: 58.95% complete, ETA 00:13:50
+# Fork: 3 of 3
+# Warmup Iteration   1: 442.947 us/op
+# Warmup Iteration   2: 430.365 us/op
+# Warmup Iteration   3: 430.880 us/op
+Iteration   1: 429.028 us/op
+Iteration   2: 429.850 us/op
+Iteration   3: 433.689 us/op
+
+
+Result "google":
+  429.028 ñ(99.9%) 12.427 us/op [Average]
+  (min, avg, max) = (417.648, 429.028, 441.149), stdev = 7.395
+  CI (99.9%): [416.601, 441.455] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.google
+# Parameters: (len = 100000, percentMatch = 0.8)
+
+# Run progress: 59.26% complete, ETA 00:13:44
+# Fork: 1 of 3
+# Warmup Iteration   1: 298.834 us/op
+# Warmup Iteration   2: 275.722 us/op
+# Warmup Iteration   3: 269.479 us/op
+Iteration   1: 272.244 us/op
+Iteration   2: 269.478 us/op
+Iteration   3: 269.910 us/op
+
+# Run progress: 59.57% complete, ETA 00:13:37
+# Fork: 2 of 3
+# Warmup Iteration   1: 284.990 us/op
+# Warmup Iteration   2: 271.379 us/op
+# Warmup Iteration   3: 269.886 us/op
+Iteration   1: 270.220 us/op
+Iteration   2: 269.082 us/op
+Iteration   3: 271.487 us/op
+
+# Run progress: 59.88% complete, ETA 00:13:31
+# Fork: 3 of 3
+# Warmup Iteration   1: 284.198 us/op
+# Warmup Iteration   2: 270.762 us/op
+# Warmup Iteration   3: 273.454 us/op
+Iteration   1: 275.884 us/op
+Iteration   2: 269.543 us/op
+Iteration   3: 270.497 us/op
+
+
+Result "google":
+  270.927 ñ(99.9%) 3.553 us/op [Average]
+  (min, avg, max) = (269.082, 270.927, 275.884), stdev = 2.114
+  CI (99.9%): [267.375, 274.480] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.google
+# Parameters: (len = 100000, percentMatch = 1.0)
+
+# Run progress: 60.19% complete, ETA 00:13:25
+# Fork: 1 of 3
+# Warmup Iteration   1: 50.339 us/op
+# Warmup Iteration   2: 43.756 us/op
+# Warmup Iteration   3: 44.424 us/op
+Iteration   1: 45.839 us/op
+Iteration   2: 46.081 us/op
+Iteration   3: 42.594 us/op
+
+# Run progress: 60.49% complete, ETA 00:13:19
+# Fork: 2 of 3
+# Warmup Iteration   1: 49.945 us/op
+# Warmup Iteration   2: 44.645 us/op
+# Warmup Iteration   3: 44.766 us/op
+Iteration   1: 46.741 us/op
+Iteration   2: 46.089 us/op
+Iteration   3: 42.523 us/op
+
+# Run progress: 60.80% complete, ETA 00:13:12
+# Fork: 3 of 3
+# Warmup Iteration   1: 49.995 us/op
+# Warmup Iteration   2: 43.564 us/op
+# Warmup Iteration   3: 44.303 us/op
+Iteration   1: 46.113 us/op
+Iteration   2: 45.875 us/op
+Iteration   3: 42.373 us/op
+
+
+Result "google":
+  44.914 ñ(99.9%) 3.079 us/op [Average]
+  (min, avg, max) = (42.373, 44.914, 46.741), stdev = 1.832
+  CI (99.9%): [41.835, 47.993] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.google
+# Parameters: (len = 1000000, percentMatch = 0.0)
+
+# Run progress: 61.11% complete, ETA 00:13:06
+# Fork: 1 of 3
+# Warmup Iteration   1: 1118.615 us/op
+# Warmup Iteration   2: 938.996 us/op
+# Warmup Iteration   3: 942.449 us/op
+Iteration   1: 950.939 us/op
+Iteration   2: 957.827 us/op
+Iteration   3: 952.849 us/op
+
+# Run progress: 61.42% complete, ETA 00:13:00
+# Fork: 2 of 3
+# Warmup Iteration   1: 1114.142 us/op
+# Warmup Iteration   2: 941.495 us/op
+# Warmup Iteration   3: 943.036 us/op
+Iteration   1: 947.184 us/op
+Iteration   2: 957.782 us/op
+Iteration   3: 952.776 us/op
+
+# Run progress: 61.73% complete, ETA 00:12:54
+# Fork: 3 of 3
+# Warmup Iteration   1: 1111.673 us/op
+# Warmup Iteration   2: 939.171 us/op
+# Warmup Iteration   3: 934.156 us/op
+Iteration   1: 944.152 us/op
+Iteration   2: 950.254 us/op
+Iteration   3: 949.919 us/op
+
+
+Result "google":
+  951.520 ñ(99.9%) 7.514 us/op [Average]
+  (min, avg, max) = (944.152, 951.520, 957.827), stdev = 4.471
+  CI (99.9%): [944.007, 959.034] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.google
+# Parameters: (len = 1000000, percentMatch = 0.2)
+
+# Run progress: 62.04% complete, ETA 00:12:48
+# Fork: 1 of 3
+# Warmup Iteration   1: 3210.671 us/op
+# Warmup Iteration   2: 3019.476 us/op
+# Warmup Iteration   3: 2961.732 us/op
+Iteration   1: 2906.734 us/op
+Iteration   2: 2904.219 us/op
+Iteration   3: 2911.933 us/op
+
+# Run progress: 62.35% complete, ETA 00:12:41
+# Fork: 2 of 3
+# Warmup Iteration   1: 3274.745 us/op
+# Warmup Iteration   2: 3088.970 us/op
+# Warmup Iteration   3: 3024.489 us/op
+Iteration   1: 2975.606 us/op
+Iteration   2: 2982.440 us/op
+Iteration   3: 2971.410 us/op
+
+# Run progress: 62.65% complete, ETA 00:12:35
+# Fork: 3 of 3
+# Warmup Iteration   1: 3212.144 us/op
+# Warmup Iteration   2: 3005.638 us/op
+# Warmup Iteration   3: 2938.002 us/op
+Iteration   1: 2890.307 us/op
+Iteration   2: 2880.160 us/op
+Iteration   3: 2890.685 us/op
+
+
+Result "google":
+  2923.721 ñ(99.9%) 68.588 us/op [Average]
+  (min, avg, max) = (2880.160, 2923.721, 2982.440), stdev = 40.816
+  CI (99.9%): [2855.133, 2992.310] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.google
+# Parameters: (len = 1000000, percentMatch = 0.4)
+
+# Run progress: 62.96% complete, ETA 00:12:29
+# Fork: 1 of 3
+# Warmup Iteration   1: 4544.287 us/op
+# Warmup Iteration   2: 4391.721 us/op
+# Warmup Iteration   3: 4368.683 us/op
+Iteration   1: 4324.880 us/op
+Iteration   2: 4352.120 us/op
+Iteration   3: 4358.308 us/op
+
+# Run progress: 63.27% complete, ETA 00:12:23
+# Fork: 2 of 3
+# Warmup Iteration   1: 4554.778 us/op
+# Warmup Iteration   2: 4385.594 us/op
+# Warmup Iteration   3: 4340.423 us/op
+Iteration   1: 4336.012 us/op
+Iteration   2: 4352.575 us/op
+Iteration   3: 4351.660 us/op
+
+# Run progress: 63.58% complete, ETA 00:12:17
+# Fork: 3 of 3
+# Warmup Iteration   1: 4573.670 us/op
+# Warmup Iteration   2: 4509.988 us/op
+# Warmup Iteration   3: 4415.384 us/op
+Iteration   1: 4437.858 us/op
+Iteration   2: 4402.255 us/op
+Iteration   3: 4453.025 us/op
+
+
+Result "google":
+  4374.299 ñ(99.9%) 76.684 us/op [Average]
+  (min, avg, max) = (4324.880, 4374.299, 4453.025), stdev = 45.633
+  CI (99.9%): [4297.615, 4450.983] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.google
+# Parameters: (len = 1000000, percentMatch = 0.6)
+
+# Run progress: 63.89% complete, ETA 00:12:10
+# Fork: 1 of 3
+# Warmup Iteration   1: 4500.872 us/op
+# Warmup Iteration   2: 4448.960 us/op
+# Warmup Iteration   3: 4371.566 us/op
+Iteration   1: 4378.649 us/op
+Iteration   2: 4368.299 us/op
+Iteration   3: 4374.793 us/op
+
+# Run progress: 64.20% complete, ETA 00:12:04
+# Fork: 2 of 3
+# Warmup Iteration   1: 4474.669 us/op
+# Warmup Iteration   2: 4422.396 us/op
+# Warmup Iteration   3: 4342.141 us/op
+Iteration   1: 4325.516 us/op
+Iteration   2: 4371.478 us/op
+Iteration   3: 4342.261 us/op
+
+# Run progress: 64.51% complete, ETA 00:11:58
+# Fork: 3 of 3
+# Warmup Iteration   1: 4512.147 us/op
+# Warmup Iteration   2: 4437.986 us/op
+# Warmup Iteration   3: 4357.571 us/op
+Iteration   1: 4355.562 us/op
+Iteration   2: 4408.265 us/op
+Iteration   3: 4412.689 us/op
+
+
+Result "google":
+  4370.835 ñ(99.9%) 47.306 us/op [Average]
+  (min, avg, max) = (4325.516, 4370.835, 4412.689), stdev = 28.151
+  CI (99.9%): [4323.529, 4418.141] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.google
+# Parameters: (len = 1000000, percentMatch = 0.8)
+
+# Run progress: 64.81% complete, ETA 00:11:52
+# Fork: 1 of 3
+# Warmup Iteration   1: 3047.229 us/op
+# Warmup Iteration   2: 2855.320 us/op
+# Warmup Iteration   3: 2861.996 us/op
+Iteration   1: 2860.280 us/op
+Iteration   2: 2864.017 us/op
+Iteration   3: 2870.252 us/op
+
+# Run progress: 65.12% complete, ETA 00:11:45
+# Fork: 2 of 3
+# Warmup Iteration   1: 3078.302 us/op
+# Warmup Iteration   2: 2894.805 us/op
+# Warmup Iteration   3: 2891.687 us/op
+Iteration   1: 2906.645 us/op
+Iteration   2: 2907.704 us/op
+Iteration   3: 2899.665 us/op
+
+# Run progress: 65.43% complete, ETA 00:11:39
+# Fork: 3 of 3
+# Warmup Iteration   1: 3086.319 us/op
+# Warmup Iteration   2: 2902.309 us/op
+# Warmup Iteration   3: 2887.782 us/op
+Iteration   1: 2879.461 us/op
+Iteration   2: 2909.009 us/op
+Iteration   3: 2958.843 us/op
+
+
+Result "google":
+  2895.097 ñ(99.9%) 51.829 us/op [Average]
+  (min, avg, max) = (2860.280, 2895.097, 2958.843), stdev = 30.843
+  CI (99.9%): [2843.268, 2946.927] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.google
+# Parameters: (len = 1000000, percentMatch = 1.0)
+
+# Run progress: 65.74% complete, ETA 00:11:33
+# Fork: 1 of 3
+# Warmup Iteration   1: 554.059 us/op
+# Warmup Iteration   2: 484.368 us/op
+# Warmup Iteration   3: 482.510 us/op
+Iteration   1: 469.845 us/op
+Iteration   2: 473.890 us/op
+Iteration   3: 481.225 us/op
+
+# Run progress: 66.05% complete, ETA 00:11:27
+# Fork: 2 of 3
+# Warmup Iteration   1: 571.171 us/op
+# Warmup Iteration   2: 482.428 us/op
+# Warmup Iteration   3: 484.299 us/op
+Iteration   1: 477.900 us/op
+Iteration   2: 468.614 us/op
+Iteration   3: 472.803 us/op
+
+# Run progress: 66.36% complete, ETA 00:11:21
+# Fork: 3 of 3
+# Warmup Iteration   1: 542.160 us/op
+# Warmup Iteration   2: 476.825 us/op
+# Warmup Iteration   3: 470.259 us/op
+Iteration   1: 461.987 us/op
+Iteration   2: 467.743 us/op
+Iteration   3: 464.461 us/op
+
+
+Result "google":
+  470.941 ñ(99.9%) 10.382 us/op [Average]
+  (min, avg, max) = (461.987, 470.941, 481.225), stdev = 6.178
+  CI (99.9%): [460.559, 481.323] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.yikjiun
+# Parameters: (len = 10, percentMatch = 0.0)
+
+# Run progress: 66.67% complete, ETA 00:11:14
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.009 us/op
+# Warmup Iteration   2: 0.009 us/op
+# Warmup Iteration   3: 0.008 us/op
+Iteration   1: 0.008 us/op
+Iteration   2: 0.008 us/op
+Iteration   3: 0.008 us/op
+
+# Run progress: 66.98% complete, ETA 00:11:08
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.009 us/op
+# Warmup Iteration   2: 0.009 us/op
+# Warmup Iteration   3: 0.008 us/op
+Iteration   1: 0.008 us/op
+Iteration   2: 0.008 us/op
+Iteration   3: 0.008 us/op
+
+# Run progress: 67.28% complete, ETA 00:11:02
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.009 us/op
+# Warmup Iteration   2: 0.009 us/op
+# Warmup Iteration   3: 0.008 us/op
+Iteration   1: 0.008 us/op
+Iteration   2: 0.008 us/op
+Iteration   3: 0.008 us/op
+
+
+Result "yikjiun":
+  0.008 ñ(99.9%) 0.001 us/op [Average]
+  (min, avg, max) = (0.008, 0.008, 0.008), stdev = 0.001
+  CI (99.9%): [0.008, 0.008] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.yikjiun
+# Parameters: (len = 10, percentMatch = 0.2)
+
+# Run progress: 67.59% complete, ETA 00:10:55
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.033 us/op
+# Warmup Iteration   2: 0.028 us/op
+# Warmup Iteration   3: 0.028 us/op
+Iteration   1: 0.028 us/op
+Iteration   2: 0.028 us/op
+Iteration   3: 0.028 us/op
+
+# Run progress: 67.90% complete, ETA 00:10:49
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.034 us/op
+# Warmup Iteration   2: 0.029 us/op
+# Warmup Iteration   3: 0.028 us/op
+Iteration   1: 0.028 us/op
+Iteration   2: 0.028 us/op
+Iteration   3: 0.029 us/op
+
+# Run progress: 68.21% complete, ETA 00:10:43
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.036 us/op
+# Warmup Iteration   2: 0.030 us/op
+# Warmup Iteration   3: 0.027 us/op
+Iteration   1: 0.027 us/op
+Iteration   2: 0.026 us/op
+Iteration   3: 0.027 us/op
+
+
+Result "yikjiun":
+  0.028 ñ(99.9%) 0.001 us/op [Average]
+  (min, avg, max) = (0.026, 0.028, 0.029), stdev = 0.001
+  CI (99.9%): [0.026, 0.029] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.yikjiun
+# Parameters: (len = 10, percentMatch = 0.4)
+
+# Run progress: 68.52% complete, ETA 00:10:37
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.034 us/op
+# Warmup Iteration   2: 0.030 us/op
+# Warmup Iteration   3: 0.026 us/op
+Iteration   1: 0.026 us/op
+Iteration   2: 0.026 us/op
+Iteration   3: 0.026 us/op
+
+# Run progress: 68.83% complete, ETA 00:10:30
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.034 us/op
+# Warmup Iteration   2: 0.029 us/op
+# Warmup Iteration   3: 0.028 us/op
+Iteration   1: 0.028 us/op
+Iteration   2: 0.029 us/op
+Iteration   3: 0.029 us/op
+
+# Run progress: 69.14% complete, ETA 00:10:24
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.035 us/op
+# Warmup Iteration   2: 0.029 us/op
+# Warmup Iteration   3: 0.026 us/op
+Iteration   1: 0.026 us/op
+Iteration   2: 0.026 us/op
+Iteration   3: 0.026 us/op
+
+
+Result "yikjiun":
+  0.027 ñ(99.9%) 0.002 us/op [Average]
+  (min, avg, max) = (0.026, 0.027, 0.029), stdev = 0.001
+  CI (99.9%): [0.025, 0.029] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.yikjiun
+# Parameters: (len = 10, percentMatch = 0.6)
+
+# Run progress: 69.44% complete, ETA 00:10:18
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.032 us/op
+# Warmup Iteration   2: 0.028 us/op
+# Warmup Iteration   3: 0.025 us/op
+Iteration   1: 0.025 us/op
+Iteration   2: 0.025 us/op
+Iteration   3: 0.026 us/op
+
+# Run progress: 69.75% complete, ETA 00:10:12
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.032 us/op
+# Warmup Iteration   2: 0.029 us/op
+# Warmup Iteration   3: 0.026 us/op
+Iteration   1: 0.026 us/op
+Iteration   2: 0.026 us/op
+Iteration   3: 0.025 us/op
+
+# Run progress: 70.06% complete, ETA 00:10:05
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.030 us/op
+# Warmup Iteration   2: 0.027 us/op
+# Warmup Iteration   3: 0.027 us/op
+Iteration   1: 0.027 us/op
+Iteration   2: 0.026 us/op
+Iteration   3: 0.025 us/op
+
+
+Result "yikjiun":
+  0.026 ñ(99.9%) 0.001 us/op [Average]
+  (min, avg, max) = (0.025, 0.026, 0.027), stdev = 0.001
+  CI (99.9%): [0.025, 0.027] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.yikjiun
+# Parameters: (len = 10, percentMatch = 0.8)
+
+# Run progress: 70.37% complete, ETA 00:09:59
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.030 us/op
+# Warmup Iteration   2: 0.027 us/op
+# Warmup Iteration   3: 0.023 us/op
+Iteration   1: 0.023 us/op
+Iteration   2: 0.023 us/op
+Iteration   3: 0.023 us/op
+
+# Run progress: 70.68% complete, ETA 00:09:53
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.031 us/op
+# Warmup Iteration   2: 0.028 us/op
+# Warmup Iteration   3: 0.024 us/op
+Iteration   1: 0.024 us/op
+Iteration   2: 0.024 us/op
+Iteration   3: 0.024 us/op
+
+# Run progress: 70.99% complete, ETA 00:09:47
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.031 us/op
+# Warmup Iteration   2: 0.028 us/op
+# Warmup Iteration   3: 0.024 us/op
+Iteration   1: 0.023 us/op
+Iteration   2: 0.024 us/op
+Iteration   3: 0.024 us/op
+
+
+Result "yikjiun":
+  0.024 ñ(99.9%) 0.001 us/op [Average]
+  (min, avg, max) = (0.023, 0.024, 0.024), stdev = 0.001
+  CI (99.9%): [0.023, 0.024] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.yikjiun
+# Parameters: (len = 10, percentMatch = 1.0)
+
+# Run progress: 71.30% complete, ETA 00:09:41
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.018 us/op
+# Warmup Iteration   2: 0.016 us/op
+# Warmup Iteration   3: 0.015 us/op
+Iteration   1: 0.015 us/op
+Iteration   2: 0.015 us/op
+Iteration   3: 0.015 us/op
+
+# Run progress: 71.60% complete, ETA 00:09:34
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.018 us/op
+# Warmup Iteration   2: 0.016 us/op
+# Warmup Iteration   3: 0.015 us/op
+Iteration   1: 0.015 us/op
+Iteration   2: 0.015 us/op
+Iteration   3: 0.016 us/op
+
+# Run progress: 71.91% complete, ETA 00:09:28
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.018 us/op
+# Warmup Iteration   2: 0.016 us/op
+# Warmup Iteration   3: 0.015 us/op
+Iteration   1: 0.015 us/op
+Iteration   2: 0.016 us/op
+Iteration   3: 0.015 us/op
+
+
+Result "yikjiun":
+  0.015 ñ(99.9%) 0.001 us/op [Average]
+  (min, avg, max) = (0.015, 0.015, 0.016), stdev = 0.001
+  CI (99.9%): [0.015, 0.016] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.yikjiun
+# Parameters: (len = 100, percentMatch = 0.0)
+
+# Run progress: 72.22% complete, ETA 00:09:22
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.026 us/op
+# Warmup Iteration   2: 0.026 us/op
+# Warmup Iteration   3: 0.024 us/op
+Iteration   1: 0.024 us/op
+Iteration   2: 0.024 us/op
+Iteration   3: 0.024 us/op
+
+# Run progress: 72.53% complete, ETA 00:09:16
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.026 us/op
+# Warmup Iteration   2: 0.026 us/op
+# Warmup Iteration   3: 0.024 us/op
+Iteration   1: 0.024 us/op
+Iteration   2: 0.025 us/op
+Iteration   3: 0.024 us/op
+
+# Run progress: 72.84% complete, ETA 00:09:09
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.026 us/op
+# Warmup Iteration   2: 0.026 us/op
+# Warmup Iteration   3: 0.024 us/op
+Iteration   1: 0.024 us/op
+Iteration   2: 0.024 us/op
+Iteration   3: 0.024 us/op
+
+
+Result "yikjiun":
+  0.024 ñ(99.9%) 0.001 us/op [Average]
+  (min, avg, max) = (0.024, 0.024, 0.025), stdev = 0.001
+  CI (99.9%): [0.024, 0.025] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.yikjiun
+# Parameters: (len = 100, percentMatch = 0.2)
+
+# Run progress: 73.15% complete, ETA 00:09:03
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.136 us/op
+# Warmup Iteration   2: 0.119 us/op
+# Warmup Iteration   3: 0.117 us/op
+Iteration   1: 0.118 us/op
+Iteration   2: 0.118 us/op
+Iteration   3: 0.118 us/op
+
+# Run progress: 73.46% complete, ETA 00:08:57
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.123 us/op
+# Warmup Iteration   2: 0.105 us/op
+# Warmup Iteration   3: 0.098 us/op
+Iteration   1: 0.098 us/op
+Iteration   2: 0.099 us/op
+Iteration   3: 0.099 us/op
+
+# Run progress: 73.77% complete, ETA 00:08:51
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.139 us/op
+# Warmup Iteration   2: 0.121 us/op
+# Warmup Iteration   3: 0.119 us/op
+Iteration   1: 0.120 us/op
+Iteration   2: 0.121 us/op
+Iteration   3: 0.121 us/op
+
+
+Result "yikjiun":
+  0.112 ñ(99.9%) 0.017 us/op [Average]
+  (min, avg, max) = (0.098, 0.112, 0.121), stdev = 0.010
+  CI (99.9%): [0.095, 0.130] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.yikjiun
+# Parameters: (len = 100, percentMatch = 0.4)
+
+# Run progress: 74.07% complete, ETA 00:08:44
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.151 us/op
+# Warmup Iteration   2: 0.139 us/op
+# Warmup Iteration   3: 0.133 us/op
+Iteration   1: 0.133 us/op
+Iteration   2: 0.134 us/op
+Iteration   3: 0.135 us/op
+
+# Run progress: 74.38% complete, ETA 00:08:38
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.140 us/op
+# Warmup Iteration   2: 0.122 us/op
+# Warmup Iteration   3: 0.122 us/op
+Iteration   1: 0.123 us/op
+Iteration   2: 0.125 us/op
+Iteration   3: 0.123 us/op
+
+# Run progress: 74.69% complete, ETA 00:08:32
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.145 us/op
+# Warmup Iteration   2: 0.128 us/op
+# Warmup Iteration   3: 0.127 us/op
+Iteration   1: 0.127 us/op
+Iteration   2: 0.127 us/op
+Iteration   3: 0.126 us/op
+
+
+Result "yikjiun":
+  0.128 ñ(99.9%) 0.008 us/op [Average]
+  (min, avg, max) = (0.123, 0.128, 0.135), stdev = 0.005
+  CI (99.9%): [0.120, 0.136] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.yikjiun
+# Parameters: (len = 100, percentMatch = 0.6)
+
+# Run progress: 75.00% complete, ETA 00:08:26
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.115 us/op
+# Warmup Iteration   2: 0.103 us/op
+# Warmup Iteration   3: 0.091 us/op
+Iteration   1: 0.092 us/op
+Iteration   2: 0.092 us/op
+Iteration   3: 0.092 us/op
+
+# Run progress: 75.31% complete, ETA 00:08:19
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.111 us/op
+# Warmup Iteration   2: 0.097 us/op
+# Warmup Iteration   3: 0.093 us/op
+Iteration   1: 0.093 us/op
+Iteration   2: 0.094 us/op
+Iteration   3: 0.094 us/op
+
+# Run progress: 75.62% complete, ETA 00:08:13
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.111 us/op
+# Warmup Iteration   2: 0.097 us/op
+# Warmup Iteration   3: 0.098 us/op
+Iteration   1: 0.097 us/op
+Iteration   2: 0.098 us/op
+Iteration   3: 0.098 us/op
+
+
+Result "yikjiun":
+  0.094 ñ(99.9%) 0.004 us/op [Average]
+  (min, avg, max) = (0.092, 0.094, 0.098), stdev = 0.003
+  CI (99.9%): [0.090, 0.099] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.yikjiun
+# Parameters: (len = 100, percentMatch = 0.8)
+
+# Run progress: 75.93% complete, ETA 00:08:07
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.099 us/op
+# Warmup Iteration   2: 0.088 us/op
+# Warmup Iteration   3: 0.079 us/op
+Iteration   1: 0.078 us/op
+Iteration   2: 0.080 us/op
+Iteration   3: 0.080 us/op
+
+# Run progress: 76.23% complete, ETA 00:08:01
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.104 us/op
+# Warmup Iteration   2: 0.086 us/op
+# Warmup Iteration   3: 0.079 us/op
+Iteration   1: 0.079 us/op
+Iteration   2: 0.079 us/op
+Iteration   3: 0.080 us/op
+
+# Run progress: 76.54% complete, ETA 00:07:54
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.102 us/op
+# Warmup Iteration   2: 0.088 us/op
+# Warmup Iteration   3: 0.079 us/op
+Iteration   1: 0.082 us/op
+Iteration   2: 0.080 us/op
+Iteration   3: 0.077 us/op
+
+
+Result "yikjiun":
+  0.079 ñ(99.9%) 0.002 us/op [Average]
+  (min, avg, max) = (0.077, 0.079, 0.082), stdev = 0.001
+  CI (99.9%): [0.077, 0.082] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.yikjiun
+# Parameters: (len = 100, percentMatch = 1.0)
+
+# Run progress: 76.85% complete, ETA 00:07:48
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.053 us/op
+# Warmup Iteration   2: 0.044 us/op
+# Warmup Iteration   3: 0.044 us/op
+Iteration   1: 0.045 us/op
+Iteration   2: 0.046 us/op
+Iteration   3: 0.045 us/op
+
+# Run progress: 77.16% complete, ETA 00:07:42
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.053 us/op
+# Warmup Iteration   2: 0.045 us/op
+# Warmup Iteration   3: 0.044 us/op
+Iteration   1: 0.044 us/op
+Iteration   2: 0.045 us/op
+Iteration   3: 0.044 us/op
+
+# Run progress: 77.47% complete, ETA 00:07:36
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.050 us/op
+# Warmup Iteration   2: 0.044 us/op
+# Warmup Iteration   3: 0.044 us/op
+Iteration   1: 0.044 us/op
+Iteration   2: 0.044 us/op
+Iteration   3: 0.044 us/op
+
+
+Result "yikjiun":
+  0.045 ñ(99.9%) 0.001 us/op [Average]
+  (min, avg, max) = (0.044, 0.045, 0.046), stdev = 0.001
+  CI (99.9%): [0.043, 0.046] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.yikjiun
+# Parameters: (len = 1000, percentMatch = 0.0)
+
+# Run progress: 77.78% complete, ETA 00:07:29
+# Fork: 1 of 3
+# Warmup Iteration   1: 1.266 us/op
+# Warmup Iteration   2: 1.107 us/op
+# Warmup Iteration   3: 1.111 us/op
+Iteration   1: 1.117 us/op
+Iteration   2: 1.123 us/op
+Iteration   3: 1.125 us/op
+
+# Run progress: 78.09% complete, ETA 00:07:23
+# Fork: 2 of 3
+# Warmup Iteration   1: 1.030 us/op
+# Warmup Iteration   2: 0.895 us/op
+# Warmup Iteration   3: 0.894 us/op
+Iteration   1: 0.904 us/op
+Iteration   2: 0.906 us/op
+Iteration   3: 0.920 us/op
+
+# Run progress: 78.40% complete, ETA 00:07:17
+# Fork: 3 of 3
+# Warmup Iteration   1: 1.247 us/op
+# Warmup Iteration   2: 1.095 us/op
+# Warmup Iteration   3: 1.089 us/op
+Iteration   1: 1.097 us/op
+Iteration   2: 1.105 us/op
+Iteration   3: 1.104 us/op
+
+
+Result "yikjiun":
+  1.044 ñ(99.9%) 0.171 us/op [Average]
+  (min, avg, max) = (0.904, 1.044, 1.125), stdev = 0.101
+  CI (99.9%): [0.874, 1.215] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.yikjiun
+# Parameters: (len = 1000, percentMatch = 0.2)
+
+# Run progress: 78.70% complete, ETA 00:07:11
+# Fork: 1 of 3
+# Warmup Iteration   1: 1.385 us/op
+# Warmup Iteration   2: 1.222 us/op
+# Warmup Iteration   3: 1.215 us/op
+Iteration   1: 1.218 us/op
+Iteration   2: 1.221 us/op
+Iteration   3: 1.239 us/op
+
+# Run progress: 79.01% complete, ETA 00:07:04
+# Fork: 2 of 3
+# Warmup Iteration   1: 1.410 us/op
+# Warmup Iteration   2: 1.255 us/op
+# Warmup Iteration   3: 1.261 us/op
+Iteration   1: 1.253 us/op
+Iteration   2: 1.249 us/op
+Iteration   3: 1.254 us/op
+
+# Run progress: 79.32% complete, ETA 00:06:58
+# Fork: 3 of 3
+# Warmup Iteration   1: 1.443 us/op
+# Warmup Iteration   2: 1.299 us/op
+# Warmup Iteration   3: 1.278 us/op
+Iteration   1: 1.273 us/op
+Iteration   2: 1.281 us/op
+Iteration   3: 1.295 us/op
+
+
+Result "yikjiun":
+  1.254 ñ(99.9%) 0.044 us/op [Average]
+  (min, avg, max) = (1.218, 1.254, 1.295), stdev = 0.026
+  CI (99.9%): [1.210, 1.297] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.yikjiun
+# Parameters: (len = 1000, percentMatch = 0.4)
+
+# Run progress: 79.63% complete, ETA 00:06:52
+# Fork: 1 of 3
+# Warmup Iteration   1: 1.276 us/op
+# Warmup Iteration   2: 1.160 us/op
+# Warmup Iteration   3: 1.133 us/op
+Iteration   1: 1.134 us/op
+Iteration   2: 1.143 us/op
+Iteration   3: 1.153 us/op
+
+# Run progress: 79.94% complete, ETA 00:06:46
+# Fork: 2 of 3
+# Warmup Iteration   1: 1.268 us/op
+# Warmup Iteration   2: 1.143 us/op
+# Warmup Iteration   3: 1.128 us/op
+Iteration   1: 1.121 us/op
+Iteration   2: 1.124 us/op
+Iteration   3: 1.136 us/op
+
+# Run progress: 80.25% complete, ETA 00:06:39
+# Fork: 3 of 3
+# Warmup Iteration   1: 1.291 us/op
+# Warmup Iteration   2: 1.174 us/op
+# Warmup Iteration   3: 1.153 us/op
+Iteration   1: 1.163 us/op
+Iteration   2: 1.155 us/op
+Iteration   3: 1.189 us/op
+
+
+Result "yikjiun":
+  1.147 ñ(99.9%) 0.036 us/op [Average]
+  (min, avg, max) = (1.121, 1.147, 1.189), stdev = 0.021
+  CI (99.9%): [1.111, 1.182] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.yikjiun
+# Parameters: (len = 1000, percentMatch = 0.6)
+
+# Run progress: 80.56% complete, ETA 00:06:33
+# Fork: 1 of 3
+# Warmup Iteration   1: 1.071 us/op
+# Warmup Iteration   2: 0.917 us/op
+# Warmup Iteration   3: 0.977 us/op
+Iteration   1: 0.964 us/op
+Iteration   2: 1.007 us/op
+Iteration   3: 0.967 us/op
+
+# Run progress: 80.86% complete, ETA 00:06:27
+# Fork: 2 of 3
+# Warmup Iteration   1: 1.108 us/op
+# Warmup Iteration   2: 1.046 us/op
+# Warmup Iteration   3: 1.048 us/op
+Iteration   1: 0.979 us/op
+Iteration   2: 0.986 us/op
+Iteration   3: 0.978 us/op
+
+# Run progress: 81.17% complete, ETA 00:06:21
+# Fork: 3 of 3
+# Warmup Iteration   1: 1.087 us/op
+# Warmup Iteration   2: 1.005 us/op
+# Warmup Iteration   3: 0.960 us/op
+Iteration   1: 0.969 us/op
+Iteration   2: 0.976 us/op
+Iteration   3: 0.954 us/op
+
+
+Result "yikjiun":
+  0.976 ñ(99.9%) 0.025 us/op [Average]
+  (min, avg, max) = (0.954, 0.976, 1.007), stdev = 0.015
+  CI (99.9%): [0.950, 1.001] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.yikjiun
+# Parameters: (len = 1000, percentMatch = 0.8)
+
+# Run progress: 81.48% complete, ETA 00:06:14
+# Fork: 1 of 3
+# Warmup Iteration   1: 1.009 us/op
+# Warmup Iteration   2: 0.928 us/op
+# Warmup Iteration   3: 0.918 us/op
+Iteration   1: 0.910 us/op
+Iteration   2: 0.935 us/op
+Iteration   3: 0.883 us/op
+
+# Run progress: 81.79% complete, ETA 00:06:08
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.967 us/op
+# Warmup Iteration   2: 0.909 us/op
+# Warmup Iteration   3: 0.881 us/op
+Iteration   1: 0.883 us/op
+Iteration   2: 0.877 us/op
+Iteration   3: 0.858 us/op
+
+# Run progress: 82.10% complete, ETA 00:06:02
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.975 us/op
+# Warmup Iteration   2: 0.881 us/op
+# Warmup Iteration   3: 0.864 us/op
+Iteration   1: 0.861 us/op
+Iteration   2: 0.865 us/op
+Iteration   3: 0.869 us/op
+
+
+Result "yikjiun":
+  0.882 ñ(99.9%) 0.042 us/op [Average]
+  (min, avg, max) = (0.858, 0.882, 0.935), stdev = 0.025
+  CI (99.9%): [0.840, 0.925] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.yikjiun
+# Parameters: (len = 1000, percentMatch = 1.0)
+
+# Run progress: 82.41% complete, ETA 00:05:56
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.397 us/op
+# Warmup Iteration   2: 0.346 us/op
+# Warmup Iteration   3: 0.349 us/op
+Iteration   1: 0.346 us/op
+Iteration   2: 0.347 us/op
+Iteration   3: 0.347 us/op
+
+# Run progress: 82.72% complete, ETA 00:05:49
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.394 us/op
+# Warmup Iteration   2: 0.344 us/op
+# Warmup Iteration   3: 0.345 us/op
+Iteration   1: 0.346 us/op
+Iteration   2: 0.349 us/op
+Iteration   3: 0.345 us/op
+
+# Run progress: 83.02% complete, ETA 00:05:43
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.395 us/op
+# Warmup Iteration   2: 0.348 us/op
+# Warmup Iteration   3: 0.345 us/op
+Iteration   1: 0.346 us/op
+Iteration   2: 0.346 us/op
+Iteration   3: 0.346 us/op
+
+
+Result "yikjiun":
+  0.346 ñ(99.9%) 0.002 us/op [Average]
+  (min, avg, max) = (0.345, 0.346, 0.349), stdev = 0.001
+  CI (99.9%): [0.345, 0.348] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.yikjiun
+# Parameters: (len = 10000, percentMatch = 0.0)
+
+# Run progress: 83.33% complete, ETA 00:05:37
+# Fork: 1 of 3
+# Warmup Iteration   1: 12.430 us/op
+# Warmup Iteration   2: 10.607 us/op
+# Warmup Iteration   3: 10.805 us/op
+Iteration   1: 10.873 us/op
+Iteration   2: 10.947 us/op
+Iteration   3: 10.983 us/op
+
+# Run progress: 83.64% complete, ETA 00:05:31
+# Fork: 2 of 3
+# Warmup Iteration   1: 12.527 us/op
+# Warmup Iteration   2: 10.671 us/op
+# Warmup Iteration   3: 10.703 us/op
+Iteration   1: 10.741 us/op
+Iteration   2: 10.813 us/op
+Iteration   3: 10.826 us/op
+
+# Run progress: 83.95% complete, ETA 00:05:24
+# Fork: 3 of 3
+# Warmup Iteration   1: 12.525 us/op
+# Warmup Iteration   2: 10.674 us/op
+# Warmup Iteration   3: 10.909 us/op
+Iteration   1: 10.944 us/op
+Iteration   2: 11.023 us/op
+Iteration   3: 11.087 us/op
+
+
+Result "yikjiun":
+  10.915 ñ(99.9%) 0.186 us/op [Average]
+  (min, avg, max) = (10.741, 10.915, 11.087), stdev = 0.111
+  CI (99.9%): [10.729, 11.102] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.yikjiun
+# Parameters: (len = 10000, percentMatch = 0.2)
+
+# Run progress: 84.26% complete, ETA 00:05:18
+# Fork: 1 of 3
+# Warmup Iteration   1: 15.521 us/op
+# Warmup Iteration   2: 14.253 us/op
+# Warmup Iteration   3: 16.071 us/op
+Iteration   1: 16.008 us/op
+Iteration   2: 16.121 us/op
+Iteration   3: 16.209 us/op
+
+# Run progress: 84.57% complete, ETA 00:05:12
+# Fork: 2 of 3
+# Warmup Iteration   1: 18.000 us/op
+# Warmup Iteration   2: 16.289 us/op
+# Warmup Iteration   3: 16.352 us/op
+Iteration   1: 13.430 us/op
+Iteration   2: 13.447 us/op
+Iteration   3: 13.571 us/op
+
+# Run progress: 84.88% complete, ETA 00:05:06
+# Fork: 3 of 3
+# Warmup Iteration   1: 17.201 us/op
+# Warmup Iteration   2: 14.730 us/op
+# Warmup Iteration   3: 14.125 us/op
+Iteration   1: 13.024 us/op
+Iteration   2: 13.037 us/op
+Iteration   3: 13.109 us/op
+
+
+Result "yikjiun":
+  14.217 ñ(99.9%) 2.412 us/op [Average]
+  (min, avg, max) = (13.024, 14.217, 16.209), stdev = 1.435
+  CI (99.9%): [11.806, 16.629] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.yikjiun
+# Parameters: (len = 10000, percentMatch = 0.4)
+
+# Run progress: 85.19% complete, ETA 00:04:59
+# Fork: 1 of 3
+# Warmup Iteration   1: 25.734 us/op
+# Warmup Iteration   2: 24.658 us/op
+# Warmup Iteration   3: 24.785 us/op
+Iteration   1: 23.079 us/op
+Iteration   2: 23.127 us/op
+Iteration   3: 23.380 us/op
+
+# Run progress: 85.49% complete, ETA 00:04:53
+# Fork: 2 of 3
+# Warmup Iteration   1: 26.641 us/op
+# Warmup Iteration   2: 25.416 us/op
+# Warmup Iteration   3: 25.581 us/op
+Iteration   1: 23.248 us/op
+Iteration   2: 23.381 us/op
+Iteration   3: 23.688 us/op
+
+# Run progress: 85.80% complete, ETA 00:04:47
+# Fork: 3 of 3
+# Warmup Iteration   1: 24.549 us/op
+# Warmup Iteration   2: 24.106 us/op
+# Warmup Iteration   3: 25.259 us/op
+Iteration   1: 24.346 us/op
+Iteration   2: 24.466 us/op
+Iteration   3: 24.625 us/op
+
+
+Result "yikjiun":
+  23.704 ñ(99.9%) 1.026 us/op [Average]
+  (min, avg, max) = (23.079, 23.704, 24.625), stdev = 0.610
+  CI (99.9%): [22.679, 24.730] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.yikjiun
+# Parameters: (len = 10000, percentMatch = 0.6)
+
+# Run progress: 86.11% complete, ETA 00:04:41
+# Fork: 1 of 3
+# Warmup Iteration   1: 21.271 us/op
+# Warmup Iteration   2: 20.971 us/op
+# Warmup Iteration   3: 20.463 us/op
+Iteration   1: 18.434 us/op
+Iteration   2: 18.653 us/op
+Iteration   3: 18.748 us/op
+
+# Run progress: 86.42% complete, ETA 00:04:34
+# Fork: 2 of 3
+# Warmup Iteration   1: 22.607 us/op
+# Warmup Iteration   2: 20.599 us/op
+# Warmup Iteration   3: 20.879 us/op
+Iteration   1: 19.115 us/op
+Iteration   2: 19.352 us/op
+Iteration   3: 19.316 us/op
+
+# Run progress: 86.73% complete, ETA 00:04:28
+# Fork: 3 of 3
+# Warmup Iteration   1: 21.001 us/op
+# Warmup Iteration   2: 22.348 us/op
+# Warmup Iteration   3: 22.749 us/op
+Iteration   1: 19.089 us/op
+Iteration   2: 19.245 us/op
+Iteration   3: 19.439 us/op
+
+
+Result "yikjiun":
+  19.044 ñ(99.9%) 0.589 us/op [Average]
+  (min, avg, max) = (18.434, 19.044, 19.439), stdev = 0.351
+  CI (99.9%): [18.454, 19.633] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.yikjiun
+# Parameters: (len = 10000, percentMatch = 0.8)
+
+# Run progress: 87.04% complete, ETA 00:04:22
+# Fork: 1 of 3
+# Warmup Iteration   1: 10.070 us/op
+# Warmup Iteration   2: 10.100 us/op
+# Warmup Iteration   3: 10.028 us/op
+Iteration   1: 10.026 us/op
+Iteration   2: 10.052 us/op
+Iteration   3: 10.068 us/op
+
+# Run progress: 87.35% complete, ETA 00:04:16
+# Fork: 2 of 3
+# Warmup Iteration   1: 8.227 us/op
+# Warmup Iteration   2: 7.267 us/op
+# Warmup Iteration   3: 7.081 us/op
+Iteration   1: 7.151 us/op
+Iteration   2: 7.120 us/op
+Iteration   3: 7.188 us/op
+
+# Run progress: 87.65% complete, ETA 00:04:09
+# Fork: 3 of 3
+# Warmup Iteration   1: 9.613 us/op
+# Warmup Iteration   2: 10.405 us/op
+# Warmup Iteration   3: 9.945 us/op
+Iteration   1: 9.983 us/op
+Iteration   2: 10.139 us/op
+Iteration   3: 10.011 us/op
+
+
+Result "yikjiun":
+  9.082 ñ(99.9%) 2.432 us/op [Average]
+  (min, avg, max) = (7.120, 9.082, 10.139), stdev = 1.447
+  CI (99.9%): [6.650, 11.514] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.yikjiun
+# Parameters: (len = 10000, percentMatch = 1.0)
+
+# Run progress: 87.96% complete, ETA 00:04:03
+# Fork: 1 of 3
+# Warmup Iteration   1: 4.376 us/op
+# Warmup Iteration   2: 3.834 us/op
+# Warmup Iteration   3: 3.851 us/op
+Iteration   1: 3.869 us/op
+Iteration   2: 3.880 us/op
+Iteration   3: 3.864 us/op
+
+# Run progress: 88.27% complete, ETA 00:03:57
+# Fork: 2 of 3
+# Warmup Iteration   1: 4.335 us/op
+# Warmup Iteration   2: 3.808 us/op
+# Warmup Iteration   3: 3.822 us/op
+Iteration   1: 3.818 us/op
+Iteration   2: 3.835 us/op
+Iteration   3: 3.831 us/op
+
+# Run progress: 88.58% complete, ETA 00:03:51
+# Fork: 3 of 3
+# Warmup Iteration   1: 4.346 us/op
+# Warmup Iteration   2: 3.815 us/op
+# Warmup Iteration   3: 3.839 us/op
+Iteration   1: 3.845 us/op
+Iteration   2: 3.854 us/op
+Iteration   3: 3.847 us/op
+
+
+Result "yikjiun":
+  3.849 ñ(99.9%) 0.033 us/op [Average]
+  (min, avg, max) = (3.818, 3.849, 3.880), stdev = 0.020
+  CI (99.9%): [3.816, 3.883] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.yikjiun
+# Parameters: (len = 100000, percentMatch = 0.0)
+
+# Run progress: 88.89% complete, ETA 00:03:44
+# Fork: 1 of 3
+# Warmup Iteration   1: 129.684 us/op
+# Warmup Iteration   2: 119.238 us/op
+# Warmup Iteration   3: 120.708 us/op
+Iteration   1: 120.050 us/op
+Iteration   2: 121.208 us/op
+Iteration   3: 121.339 us/op
+
+# Run progress: 89.20% complete, ETA 00:03:38
+# Fork: 2 of 3
+# Warmup Iteration   1: 127.061 us/op
+# Warmup Iteration   2: 112.426 us/op
+# Warmup Iteration   3: 112.265 us/op
+Iteration   1: 113.472 us/op
+Iteration   2: 113.950 us/op
+Iteration   3: 113.836 us/op
+
+# Run progress: 89.51% complete, ETA 00:03:32
+# Fork: 3 of 3
+# Warmup Iteration   1: 127.345 us/op
+# Warmup Iteration   2: 112.339 us/op
+# Warmup Iteration   3: 112.531 us/op
+Iteration   1: 114.022 us/op
+Iteration   2: 115.091 us/op
+Iteration   3: 114.237 us/op
+
+
+Result "yikjiun":
+  116.356 ñ(99.9%) 5.760 us/op [Average]
+  (min, avg, max) = (113.472, 116.356, 121.339), stdev = 3.428
+  CI (99.9%): [110.595, 122.116] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.yikjiun
+# Parameters: (len = 100000, percentMatch = 0.2)
+
+# Run progress: 89.81% complete, ETA 00:03:26
+# Fork: 1 of 3
+# Warmup Iteration   1: 290.959 us/op
+# Warmup Iteration   2: 268.900 us/op
+# Warmup Iteration   3: 270.062 us/op
+Iteration   1: 263.026 us/op
+Iteration   2: 263.440 us/op
+Iteration   3: 274.711 us/op
+
+# Run progress: 90.12% complete, ETA 00:03:19
+# Fork: 2 of 3
+# Warmup Iteration   1: 276.718 us/op
+# Warmup Iteration   2: 270.916 us/op
+# Warmup Iteration   3: 270.884 us/op
+Iteration   1: 266.480 us/op
+Iteration   2: 277.873 us/op
+Iteration   3: 267.736 us/op
+
+# Run progress: 90.43% complete, ETA 00:03:13
+# Fork: 3 of 3
+# Warmup Iteration   1: 272.766 us/op
+# Warmup Iteration   2: 272.383 us/op
+# Warmup Iteration   3: 283.021 us/op
+Iteration   1: 279.863 us/op
+Iteration   2: 278.501 us/op
+Iteration   3: 279.116 us/op
+
+
+Result "yikjiun":
+  272.305 ñ(99.9%) 11.856 us/op [Average]
+  (min, avg, max) = (263.026, 272.305, 279.863), stdev = 7.055
+  CI (99.9%): [260.449, 284.161] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.yikjiun
+# Parameters: (len = 100000, percentMatch = 0.4)
+
+# Run progress: 90.74% complete, ETA 00:03:07
+# Fork: 1 of 3
+# Warmup Iteration   1: 412.172 us/op
+# Warmup Iteration   2: 399.145 us/op
+# Warmup Iteration   3: 410.317 us/op
+Iteration   1: 428.231 us/op
+Iteration   2: 408.330 us/op
+Iteration   3: 406.579 us/op
+
+# Run progress: 91.05% complete, ETA 00:03:01
+# Fork: 2 of 3
+# Warmup Iteration   1: 425.785 us/op
+# Warmup Iteration   2: 409.754 us/op
+# Warmup Iteration   3: 399.552 us/op
+Iteration   1: 398.165 us/op
+Iteration   2: 395.482 us/op
+Iteration   3: 397.320 us/op
+
+# Run progress: 91.36% complete, ETA 00:02:54
+# Fork: 3 of 3
+# Warmup Iteration   1: 412.444 us/op
+# Warmup Iteration   2: 397.952 us/op
+# Warmup Iteration   3: 394.400 us/op
+Iteration   1: 392.916 us/op
+Iteration   2: 395.883 us/op
+Iteration   3: 393.298 us/op
+
+
+Result "yikjiun":
+  401.800 ñ(99.9%) 19.007 us/op [Average]
+  (min, avg, max) = (392.916, 401.800, 428.231), stdev = 11.311
+  CI (99.9%): [382.793, 420.808] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.yikjiun
+# Parameters: (len = 100000, percentMatch = 0.6)
+
+# Run progress: 91.67% complete, ETA 00:02:48
+# Fork: 1 of 3
+# Warmup Iteration   1: 377.136 us/op
+# Warmup Iteration   2: 364.734 us/op
+# Warmup Iteration   3: 365.175 us/op
+Iteration   1: 370.294 us/op
+Iteration   2: 374.430 us/op
+Iteration   3: 372.764 us/op
+
+# Run progress: 91.98% complete, ETA 00:02:42
+# Fork: 2 of 3
+# Warmup Iteration   1: 379.096 us/op
+# Warmup Iteration   2: 366.229 us/op
+# Warmup Iteration   3: 364.227 us/op
+Iteration   1: 365.855 us/op
+Iteration   2: 367.838 us/op
+Iteration   3: 378.832 us/op
+
+# Run progress: 92.28% complete, ETA 00:02:36
+# Fork: 3 of 3
+# Warmup Iteration   1: 391.531 us/op
+# Warmup Iteration   2: 371.585 us/op
+# Warmup Iteration   3: 370.201 us/op
+Iteration   1: 367.297 us/op
+Iteration   2: 372.305 us/op
+Iteration   3: 370.822 us/op
+
+
+Result "yikjiun":
+  371.160 ñ(99.9%) 6.732 us/op [Average]
+  (min, avg, max) = (365.855, 371.160, 378.832), stdev = 4.006
+  CI (99.9%): [364.428, 377.892] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.yikjiun
+# Parameters: (len = 100000, percentMatch = 0.8)
+
+# Run progress: 92.59% complete, ETA 00:02:29
+# Fork: 1 of 3
+# Warmup Iteration   1: 225.936 us/op
+# Warmup Iteration   2: 223.461 us/op
+# Warmup Iteration   3: 224.750 us/op
+Iteration   1: 227.554 us/op
+Iteration   2: 229.300 us/op
+Iteration   3: 221.291 us/op
+
+# Run progress: 92.90% complete, ETA 00:02:23
+# Fork: 2 of 3
+# Warmup Iteration   1: 233.567 us/op
+# Warmup Iteration   2: 216.367 us/op
+# Warmup Iteration   3: 213.521 us/op
+Iteration   1: 214.104 us/op
+Iteration   2: 212.409 us/op
+Iteration   3: 211.292 us/op
+
+# Run progress: 93.21% complete, ETA 00:02:17
+# Fork: 3 of 3
+# Warmup Iteration   1: 226.069 us/op
+# Warmup Iteration   2: 213.023 us/op
+# Warmup Iteration   3: 214.514 us/op
+Iteration   1: 211.801 us/op
+Iteration   2: 218.198 us/op
+Iteration   3: 218.852 us/op
+
+
+Result "yikjiun":
+  218.311 ñ(99.9%) 11.266 us/op [Average]
+  (min, avg, max) = (211.292, 218.311, 229.300), stdev = 6.704
+  CI (99.9%): [207.046, 229.577] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.yikjiun
+# Parameters: (len = 100000, percentMatch = 1.0)
+
+# Run progress: 93.52% complete, ETA 00:02:11
+# Fork: 1 of 3
+# Warmup Iteration   1: 46.675 us/op
+# Warmup Iteration   2: 40.846 us/op
+# Warmup Iteration   3: 41.059 us/op
+Iteration   1: 41.882 us/op
+Iteration   2: 41.164 us/op
+Iteration   3: 40.520 us/op
+
+# Run progress: 93.83% complete, ETA 00:02:04
+# Fork: 2 of 3
+# Warmup Iteration   1: 46.025 us/op
+# Warmup Iteration   2: 42.054 us/op
+# Warmup Iteration   3: 42.153 us/op
+Iteration   1: 41.766 us/op
+Iteration   2: 42.943 us/op
+Iteration   3: 43.055 us/op
+
+# Run progress: 94.14% complete, ETA 00:01:58
+# Fork: 3 of 3
+# Warmup Iteration   1: 47.760 us/op
+# Warmup Iteration   2: 41.068 us/op
+# Warmup Iteration   3: 41.010 us/op
+Iteration   1: 43.148 us/op
+Iteration   2: 40.891 us/op
+Iteration   3: 40.901 us/op
+
+
+Result "yikjiun":
+  41.808 ñ(99.9%) 1.720 us/op [Average]
+  (min, avg, max) = (40.520, 41.808, 43.148), stdev = 1.024
+  CI (99.9%): [40.087, 43.528] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.yikjiun
+# Parameters: (len = 1000000, percentMatch = 0.0)
+
+# Run progress: 94.44% complete, ETA 00:01:52
+# Fork: 1 of 3
+# Warmup Iteration   1: 1471.643 us/op
+# Warmup Iteration   2: 1274.974 us/op
+# Warmup Iteration   3: 1258.138 us/op
+Iteration   1: 1242.643 us/op
+Iteration   2: 1228.147 us/op
+Iteration   3: 1264.178 us/op
+
+# Run progress: 94.75% complete, ETA 00:01:46
+# Fork: 2 of 3
+# Warmup Iteration   1: 1469.350 us/op
+# Warmup Iteration   2: 1228.756 us/op
+# Warmup Iteration   3: 1226.440 us/op
+Iteration   1: 1236.668 us/op
+Iteration   2: 1260.598 us/op
+Iteration   3: 1245.010 us/op
+
+# Run progress: 95.06% complete, ETA 00:01:39
+# Fork: 3 of 3
+# Warmup Iteration   1: 1452.336 us/op
+# Warmup Iteration   2: 1239.986 us/op
+# Warmup Iteration   3: 1224.226 us/op
+Iteration   1: 1225.493 us/op
+Iteration   2: 1232.847 us/op
+Iteration   3: 1234.331 us/op
+
+
+Result "yikjiun":
+  1241.102 ñ(99.9%) 22.821 us/op [Average]
+  (min, avg, max) = (1225.493, 1241.102, 1264.178), stdev = 13.580
+  CI (99.9%): [1218.281, 1263.922] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.yikjiun
+# Parameters: (len = 1000000, percentMatch = 0.2)
+
+# Run progress: 95.37% complete, ETA 00:01:33
+# Fork: 1 of 3
+# Warmup Iteration   1: 2977.236 us/op
+# Warmup Iteration   2: 2806.443 us/op
+# Warmup Iteration   3: 2763.459 us/op
+Iteration   1: 2736.843 us/op
+Iteration   2: 2809.143 us/op
+Iteration   3: 2777.211 us/op
+
+# Run progress: 95.68% complete, ETA 00:01:27
+# Fork: 2 of 3
+# Warmup Iteration   1: 3061.445 us/op
+# Warmup Iteration   2: 2900.194 us/op
+# Warmup Iteration   3: 2748.614 us/op
+Iteration   1: 2709.252 us/op
+Iteration   2: 2709.606 us/op
+Iteration   3: 2704.316 us/op
+
+# Run progress: 95.99% complete, ETA 00:01:21
+# Fork: 3 of 3
+# Warmup Iteration   1: 2981.768 us/op
+# Warmup Iteration   2: 2808.895 us/op
+# Warmup Iteration   3: 2753.742 us/op
+Iteration   1: 2704.054 us/op
+Iteration   2: 2709.926 us/op
+Iteration   3: 2711.226 us/op
+
+
+Result "yikjiun":
+  2730.175 ñ(99.9%) 63.640 us/op [Average]
+  (min, avg, max) = (2704.054, 2730.175, 2809.143), stdev = 37.871
+  CI (99.9%): [2666.535, 2793.815] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.yikjiun
+# Parameters: (len = 1000000, percentMatch = 0.4)
+
+# Run progress: 96.30% complete, ETA 00:01:14
+# Fork: 1 of 3
+# Warmup Iteration   1: 4278.336 us/op
+# Warmup Iteration   2: 4059.130 us/op
+# Warmup Iteration   3: 4120.004 us/op
+Iteration   1: 4073.082 us/op
+Iteration   2: 4136.107 us/op
+Iteration   3: 4107.271 us/op
+
+# Run progress: 96.60% complete, ETA 00:01:08
+# Fork: 2 of 3
+# Warmup Iteration   1: 4387.039 us/op
+# Warmup Iteration   2: 4202.303 us/op
+# Warmup Iteration   3: 4193.961 us/op
+Iteration   1: 4175.473 us/op
+Iteration   2: 4105.125 us/op
+Iteration   3: 4108.332 us/op
+
+# Run progress: 96.91% complete, ETA 00:01:02
+# Fork: 3 of 3
+# Warmup Iteration   1: 4281.462 us/op
+# Warmup Iteration   2: 4012.544 us/op
+# Warmup Iteration   3: 4031.212 us/op
+Iteration   1: 4034.360 us/op
+Iteration   2: 4007.096 us/op
+Iteration   3: 3983.104 us/op
+
+
+Result "yikjiun":
+  4081.106 ñ(99.9%) 105.052 us/op [Average]
+  (min, avg, max) = (3983.104, 4081.106, 4175.473), stdev = 62.515
+  CI (99.9%): [3976.054, 4186.157] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.yikjiun
+# Parameters: (len = 1000000, percentMatch = 0.6)
+
+# Run progress: 97.22% complete, ETA 00:00:56
+# Fork: 1 of 3
+# Warmup Iteration   1: 3882.225 us/op
+# Warmup Iteration   2: 3733.956 us/op
+# Warmup Iteration   3: 3700.916 us/op
+Iteration   1: 3738.170 us/op
+Iteration   2: 3720.711 us/op
+Iteration   3: 3743.165 us/op
+
+# Run progress: 97.53% complete, ETA 00:00:50
+# Fork: 2 of 3
+# Warmup Iteration   1: 3900.385 us/op
+# Warmup Iteration   2: 3729.079 us/op
+# Warmup Iteration   3: 3755.621 us/op
+Iteration   1: 3704.482 us/op
+Iteration   2: 3699.664 us/op
+Iteration   3: 3747.948 us/op
+
+# Run progress: 97.84% complete, ETA 00:00:43
+# Fork: 3 of 3
+# Warmup Iteration   1: 3974.569 us/op
+# Warmup Iteration   2: 3799.988 us/op
+# Warmup Iteration   3: 3747.631 us/op
+Iteration   1: 3744.771 us/op
+Iteration   2: 3786.575 us/op
+Iteration   3: 3748.732 us/op
+
+
+Result "yikjiun":
+  3737.135 ñ(99.9%) 44.187 us/op [Average]
+  (min, avg, max) = (3699.664, 3737.135, 3786.575), stdev = 26.295
+  CI (99.9%): [3692.948, 3781.322] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.yikjiun
+# Parameters: (len = 1000000, percentMatch = 0.8)
+
+# Run progress: 98.15% complete, ETA 00:00:37
+# Fork: 1 of 3
+# Warmup Iteration   1: 2440.605 us/op
+# Warmup Iteration   2: 2318.451 us/op
+# Warmup Iteration   3: 2265.494 us/op
+Iteration   1: 2281.552 us/op
+Iteration   2: 2288.641 us/op
+Iteration   3: 2259.459 us/op
+
+# Run progress: 98.46% complete, ETA 00:00:31
+# Fork: 2 of 3
+# Warmup Iteration   1: 2372.517 us/op
+# Warmup Iteration   2: 2293.644 us/op
+# Warmup Iteration   3: 2255.565 us/op
+Iteration   1: 2246.648 us/op
+Iteration   2: 2231.699 us/op
+Iteration   3: 2251.617 us/op
+
+# Run progress: 98.77% complete, ETA 00:00:25
+# Fork: 3 of 3
+# Warmup Iteration   1: 2399.352 us/op
+# Warmup Iteration   2: 2357.772 us/op
+# Warmup Iteration   3: 2331.990 us/op
+Iteration   1: 2230.156 us/op
+Iteration   2: 2240.385 us/op
+Iteration   3: 2279.640 us/op
+
+
+Result "yikjiun":
+  2256.644 ñ(99.9%) 37.076 us/op [Average]
+  (min, avg, max) = (2230.156, 2256.644, 2288.641), stdev = 22.063
+  CI (99.9%): [2219.568, 2293.720] (assumes normal distribution)
+
+
+# JMH 1.11 (released 29 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.RemoveFromBenchmark.yikjiun
+# Parameters: (len = 1000000, percentMatch = 1.0)
+
+# Run progress: 99.07% complete, ETA 00:00:18
+# Fork: 1 of 3
+# Warmup Iteration   1: 494.954 us/op
+# Warmup Iteration   2: 440.571 us/op
+# Warmup Iteration   3: 478.753 us/op
+Iteration   1: 475.635 us/op
+Iteration   2: 438.794 us/op
+Iteration   3: 420.293 us/op
+
+# Run progress: 99.38% complete, ETA 00:00:12
+# Fork: 2 of 3
+# Warmup Iteration   1: 493.542 us/op
+# Warmup Iteration   2: 433.272 us/op
+# Warmup Iteration   3: 435.020 us/op
+Iteration   1: 436.821 us/op
+Iteration   2: 438.554 us/op
+Iteration   3: 438.380 us/op
+
+# Run progress: 99.69% complete, ETA 00:00:06
+# Fork: 3 of 3
+# Warmup Iteration   1: 499.185 us/op
+# Warmup Iteration   2: 427.506 us/op
+# Warmup Iteration   3: 430.841 us/op
+Iteration   1: 431.323 us/op
+Iteration   2: 431.163 us/op
+Iteration   3: 428.435 us/op
+
+
+Result "yikjiun":
+  437.711 ñ(99.9%) 25.996 us/op [Average]
+  (min, avg, max) = (420.293, 437.711, 475.635), stdev = 15.470
+  CI (99.9%): [411.715, 463.707] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:33:45
+
+Benchmark                      (len)  (percentMatch)  Mode  Cnt     Score     Error  Units
+RemoveFromBenchmark.eugene        10             0.0  avgt    9     0.008 ñ   0.001  us/op
+RemoveFromBenchmark.eugene        10             0.2  avgt    9     0.032 ñ   0.005  us/op
+RemoveFromBenchmark.eugene        10             0.4  avgt    9     0.030 ñ   0.004  us/op
+RemoveFromBenchmark.eugene        10             0.6  avgt    9     0.029 ñ   0.002  us/op
+RemoveFromBenchmark.eugene        10             0.8  avgt    9     0.029 ñ   0.002  us/op
+RemoveFromBenchmark.eugene        10             1.0  avgt    9     0.021 ñ   0.001  us/op
+RemoveFromBenchmark.eugene       100             0.0  avgt    9     0.040 ñ   0.039  us/op
+RemoveFromBenchmark.eugene       100             0.2  avgt    9     0.212 ñ   0.007  us/op
+RemoveFromBenchmark.eugene       100             0.4  avgt    9     0.165 ñ   0.038  us/op
+RemoveFromBenchmark.eugene       100             0.6  avgt    9     0.147 ñ   0.008  us/op
+RemoveFromBenchmark.eugene       100             0.8  avgt    9     0.126 ñ   0.002  us/op
+RemoveFromBenchmark.eugene       100             1.0  avgt    9     0.062 ñ   0.001  us/op
+RemoveFromBenchmark.eugene      1000             0.0  avgt    9     1.196 ñ   0.127  us/op
+RemoveFromBenchmark.eugene      1000             0.2  avgt    9     2.167 ñ   0.020  us/op
+RemoveFromBenchmark.eugene      1000             0.4  avgt    9     1.681 ñ   0.369  us/op
+RemoveFromBenchmark.eugene      1000             0.6  avgt    9     1.397 ñ   0.105  us/op
+RemoveFromBenchmark.eugene      1000             0.8  avgt    9     1.204 ñ   0.129  us/op
+RemoveFromBenchmark.eugene      1000             1.0  avgt    9     0.556 ñ   0.021  us/op
+RemoveFromBenchmark.eugene     10000             0.0  avgt    9    17.829 ñ   8.668  us/op
+RemoveFromBenchmark.eugene     10000             0.2  avgt    9    30.876 ñ   1.260  us/op
+RemoveFromBenchmark.eugene     10000             0.4  avgt    9    23.484 ñ   2.903  us/op
+RemoveFromBenchmark.eugene     10000             0.6  avgt    9    40.055 ñ   6.190  us/op
+RemoveFromBenchmark.eugene     10000             0.8  avgt    9    20.165 ñ   0.788  us/op
+RemoveFromBenchmark.eugene     10000             1.0  avgt    9     5.692 ñ   0.093  us/op
+RemoveFromBenchmark.eugene    100000             0.0  avgt    9   150.460 ñ   1.978  us/op
+RemoveFromBenchmark.eugene    100000             0.2  avgt    9   304.419 ñ  17.146  us/op
+RemoveFromBenchmark.eugene    100000             0.4  avgt    9   433.526 ñ  11.398  us/op
+RemoveFromBenchmark.eugene    100000             0.6  avgt    9   420.639 ñ  20.359  us/op
+RemoveFromBenchmark.eugene    100000             0.8  avgt    9   250.128 ñ   3.838  us/op
+RemoveFromBenchmark.eugene    100000             1.0  avgt    9    62.274 ñ   7.953  us/op
+RemoveFromBenchmark.eugene   1000000             0.0  avgt    9  1617.347 ñ  59.271  us/op
+RemoveFromBenchmark.eugene   1000000             0.2  avgt    9  2872.713 ñ 103.602  us/op
+RemoveFromBenchmark.eugene   1000000             0.4  avgt    9  4214.580 ñ  58.205  us/op
+RemoveFromBenchmark.eugene   1000000             0.6  avgt    9  4151.171 ñ 129.609  us/op
+RemoveFromBenchmark.eugene   1000000             0.8  avgt    9  2580.413 ñ  22.758  us/op
+RemoveFromBenchmark.eugene   1000000             1.0  avgt    9   607.297 ñ   6.141  us/op
+RemoveFromBenchmark.google        10             0.0  avgt    9     0.008 ñ   0.001  us/op
+RemoveFromBenchmark.google        10             0.2  avgt    9     0.031 ñ   0.001  us/op
+RemoveFromBenchmark.google        10             0.4  avgt    9     0.032 ñ   0.001  us/op
+RemoveFromBenchmark.google        10             0.6  avgt    9     0.033 ñ   0.003  us/op
+RemoveFromBenchmark.google        10             0.8  avgt    9     0.033 ñ   0.002  us/op
+RemoveFromBenchmark.google        10             1.0  avgt    9     0.016 ñ   0.001  us/op
+RemoveFromBenchmark.google       100             0.0  avgt    9     0.024 ñ   0.001  us/op
+RemoveFromBenchmark.google       100             0.2  avgt    9     0.149 ñ   0.004  us/op
+RemoveFromBenchmark.google       100             0.4  avgt    9     0.175 ñ   0.015  us/op
+RemoveFromBenchmark.google       100             0.6  avgt    9     0.187 ñ   0.034  us/op
+RemoveFromBenchmark.google       100             0.8  avgt    9     0.182 ñ   0.007  us/op
+RemoveFromBenchmark.google       100             1.0  avgt    9     0.048 ñ   0.009  us/op
+RemoveFromBenchmark.google      1000             0.0  avgt    9     0.787 ñ   0.024  us/op
+RemoveFromBenchmark.google      1000             0.2  avgt    9     1.518 ñ   0.087  us/op
+RemoveFromBenchmark.google      1000             0.4  avgt    9     1.743 ñ   0.296  us/op
+RemoveFromBenchmark.google      1000             0.6  avgt    9     1.934 ñ   0.322  us/op
+RemoveFromBenchmark.google      1000             0.8  avgt    9     1.818 ñ   0.026  us/op
+RemoveFromBenchmark.google      1000             1.0  avgt    9     0.387 ñ   0.017  us/op
+RemoveFromBenchmark.google     10000             0.0  avgt    9     8.233 ñ   0.495  us/op
+RemoveFromBenchmark.google     10000             0.2  avgt    9    20.925 ñ   5.323  us/op
+RemoveFromBenchmark.google     10000             0.4  avgt    9    34.700 ñ   3.477  us/op
+RemoveFromBenchmark.google     10000             0.6  avgt    9    35.238 ñ   5.522  us/op
+RemoveFromBenchmark.google     10000             0.8  avgt    9    23.207 ñ   2.384  us/op
+RemoveFromBenchmark.google     10000             1.0  avgt    9     4.254 ñ   0.138  us/op
+RemoveFromBenchmark.google    100000             0.0  avgt    9    85.956 ñ   0.567  us/op
+RemoveFromBenchmark.google    100000             0.2  avgt    9   293.781 ñ   8.677  us/op
+RemoveFromBenchmark.google    100000             0.4  avgt    9   436.201 ñ   4.995  us/op
+RemoveFromBenchmark.google    100000             0.6  avgt    9   429.028 ñ  12.427  us/op
+RemoveFromBenchmark.google    100000             0.8  avgt    9   270.927 ñ   3.553  us/op
+RemoveFromBenchmark.google    100000             1.0  avgt    9    44.914 ñ   3.079  us/op
+RemoveFromBenchmark.google   1000000             0.0  avgt    9   951.520 ñ   7.514  us/op
+RemoveFromBenchmark.google   1000000             0.2  avgt    9  2923.721 ñ  68.588  us/op
+RemoveFromBenchmark.google   1000000             0.4  avgt    9  4374.299 ñ  76.684  us/op
+RemoveFromBenchmark.google   1000000             0.6  avgt    9  4370.835 ñ  47.306  us/op
+RemoveFromBenchmark.google   1000000             0.8  avgt    9  2895.097 ñ  51.829  us/op
+RemoveFromBenchmark.google   1000000             1.0  avgt    9   470.941 ñ  10.382  us/op
+RemoveFromBenchmark.yikjiun       10             0.0  avgt    9     0.008 ñ   0.001  us/op
+RemoveFromBenchmark.yikjiun       10             0.2  avgt    9     0.028 ñ   0.001  us/op
+RemoveFromBenchmark.yikjiun       10             0.4  avgt    9     0.027 ñ   0.002  us/op
+RemoveFromBenchmark.yikjiun       10             0.6  avgt    9     0.026 ñ   0.001  us/op
+RemoveFromBenchmark.yikjiun       10             0.8  avgt    9     0.024 ñ   0.001  us/op
+RemoveFromBenchmark.yikjiun       10             1.0  avgt    9     0.015 ñ   0.001  us/op
+RemoveFromBenchmark.yikjiun      100             0.0  avgt    9     0.024 ñ   0.001  us/op
+RemoveFromBenchmark.yikjiun      100             0.2  avgt    9     0.112 ñ   0.017  us/op
+RemoveFromBenchmark.yikjiun      100             0.4  avgt    9     0.128 ñ   0.008  us/op
+RemoveFromBenchmark.yikjiun      100             0.6  avgt    9     0.094 ñ   0.004  us/op
+RemoveFromBenchmark.yikjiun      100             0.8  avgt    9     0.079 ñ   0.002  us/op
+RemoveFromBenchmark.yikjiun      100             1.0  avgt    9     0.045 ñ   0.001  us/op
+RemoveFromBenchmark.yikjiun     1000             0.0  avgt    9     1.044 ñ   0.171  us/op
+RemoveFromBenchmark.yikjiun     1000             0.2  avgt    9     1.254 ñ   0.044  us/op
+RemoveFromBenchmark.yikjiun     1000             0.4  avgt    9     1.147 ñ   0.036  us/op
+RemoveFromBenchmark.yikjiun     1000             0.6  avgt    9     0.976 ñ   0.025  us/op
+RemoveFromBenchmark.yikjiun     1000             0.8  avgt    9     0.882 ñ   0.042  us/op
+RemoveFromBenchmark.yikjiun     1000             1.0  avgt    9     0.346 ñ   0.002  us/op
+RemoveFromBenchmark.yikjiun    10000             0.0  avgt    9    10.915 ñ   0.186  us/op
+RemoveFromBenchmark.yikjiun    10000             0.2  avgt    9    14.217 ñ   2.412  us/op
+RemoveFromBenchmark.yikjiun    10000             0.4  avgt    9    23.704 ñ   1.026  us/op
+RemoveFromBenchmark.yikjiun    10000             0.6  avgt    9    19.044 ñ   0.589  us/op
+RemoveFromBenchmark.yikjiun    10000             0.8  avgt    9     9.082 ñ   2.432  us/op
+RemoveFromBenchmark.yikjiun    10000             1.0  avgt    9     3.849 ñ   0.033  us/op
+RemoveFromBenchmark.yikjiun   100000             0.0  avgt    9   116.356 ñ   5.760  us/op
+RemoveFromBenchmark.yikjiun   100000             0.2  avgt    9   272.305 ñ  11.856  us/op
+RemoveFromBenchmark.yikjiun   100000             0.4  avgt    9   401.800 ñ  19.007  us/op
+RemoveFromBenchmark.yikjiun   100000             0.6  avgt    9   371.160 ñ   6.732  us/op
+RemoveFromBenchmark.yikjiun   100000             0.8  avgt    9   218.311 ñ  11.266  us/op
+RemoveFromBenchmark.yikjiun   100000             1.0  avgt    9    41.808 ñ   1.720  us/op
+RemoveFromBenchmark.yikjiun  1000000             0.0  avgt    9  1241.102 ñ  22.821  us/op
+RemoveFromBenchmark.yikjiun  1000000             0.2  avgt    9  2730.175 ñ  63.640  us/op
+RemoveFromBenchmark.yikjiun  1000000             0.4  avgt    9  4081.106 ñ 105.052  us/op
+RemoveFromBenchmark.yikjiun  1000000             0.6  avgt    9  3737.135 ñ  44.187  us/op
+RemoveFromBenchmark.yikjiun  1000000             0.8  avgt    9  2256.644 ñ  37.076  us/op
+RemoveFromBenchmark.yikjiun  1000000             1.0  avgt    9   437.711 ñ  25.996  us/op
