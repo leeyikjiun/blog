@@ -1,0 +1,1018 @@
+# JMH 1.11.1 (released 39 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.ArrayBenchmark.measureArrayFor
+# Parameters: (n = 1000)
+
+# Run progress: 0.00% complete, ETA 00:03:30
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.295 us/op
+# Warmup Iteration   2: 0.293 us/op
+# Warmup Iteration   3: 0.293 us/op
+Iteration   1: 0.292 us/op
+Iteration   2: 0.292 us/op
+Iteration   3: 0.291 us/op
+
+
+Result "measureArrayFor":
+  0.291 ±(99.9%) 0.009 us/op [Average]
+  (min, avg, max) = (0.291, 0.291, 0.292), stdev = 0.001
+  CI (99.9%): [0.282, 0.300] (assumes normal distribution)
+
+
+# JMH 1.11.1 (released 39 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.ArrayBenchmark.measureArrayFor
+# Parameters: (n = 10000)
+
+# Run progress: 2.86% complete, ETA 00:03:30
+# Fork: 1 of 1
+# Warmup Iteration   1: 2.935 us/op
+# Warmup Iteration   2: 2.903 us/op
+# Warmup Iteration   3: 2.900 us/op
+Iteration   1: 2.902 us/op
+Iteration   2: 2.909 us/op
+Iteration   3: 2.897 us/op
+
+
+Result "measureArrayFor":
+  2.903 ±(99.9%) 0.108 us/op [Average]
+  (min, avg, max) = (2.897, 2.903, 2.909), stdev = 0.006
+  CI (99.9%): [2.794, 3.011] (assumes normal distribution)
+
+
+# JMH 1.11.1 (released 39 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.ArrayBenchmark.measureArrayFor
+# Parameters: (n = 100000)
+
+# Run progress: 5.71% complete, ETA 00:03:25
+# Fork: 1 of 1
+# Warmup Iteration   1: 29.371 us/op
+# Warmup Iteration   2: 29.117 us/op
+# Warmup Iteration   3: 28.848 us/op
+Iteration   1: 28.957 us/op
+Iteration   2: 28.855 us/op
+Iteration   3: 28.996 us/op
+
+
+Result "measureArrayFor":
+  28.936 ±(99.9%) 1.326 us/op [Average]
+  (min, avg, max) = (28.855, 28.936, 28.996), stdev = 0.073
+  CI (99.9%): [27.611, 30.262] (assumes normal distribution)
+
+
+# JMH 1.11.1 (released 39 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.ArrayBenchmark.measureArrayFor
+# Parameters: (n = 1000000)
+
+# Run progress: 8.57% complete, ETA 00:03:19
+# Fork: 1 of 1
+# Warmup Iteration   1: 293.214 us/op
+# Warmup Iteration   2: 292.580 us/op
+# Warmup Iteration   3: 291.075 us/op
+Iteration   1: 292.258 us/op
+Iteration   2: 291.368 us/op
+Iteration   3: 291.248 us/op
+
+
+Result "measureArrayFor":
+  291.625 ±(99.9%) 10.066 us/op [Average]
+  (min, avg, max) = (291.248, 291.625, 292.258), stdev = 0.552
+  CI (99.9%): [281.559, 301.691] (assumes normal distribution)
+
+
+# JMH 1.11.1 (released 39 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.ArrayBenchmark.measureArrayFor
+# Parameters: (n = 10000000)
+
+# Run progress: 11.43% complete, ETA 00:03:13
+# Fork: 1 of 1
+# Warmup Iteration   1: 3237.690 us/op
+# Warmup Iteration   2: 3215.188 us/op
+# Warmup Iteration   3: 3235.161 us/op
+Iteration   1: 3223.141 us/op
+Iteration   2: 3201.697 us/op
+Iteration   3: 3200.720 us/op
+
+
+Result "measureArrayFor":
+  3208.519 ±(99.9%) 231.186 us/op [Average]
+  (min, avg, max) = (3200.720, 3208.519, 3223.141), stdev = 12.672
+  CI (99.9%): [2977.333, 3439.705] (assumes normal distribution)
+
+
+# JMH 1.11.1 (released 39 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.ArrayBenchmark.measureArrayForWithLen
+# Parameters: (n = 1000)
+
+# Run progress: 14.29% complete, ETA 00:03:33
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.293 us/op
+# Warmup Iteration   2: 0.291 us/op
+# Warmup Iteration   3: 0.290 us/op
+Iteration   1: 0.291 us/op
+Iteration   2: 0.291 us/op
+Iteration   3: 0.291 us/op
+
+
+Result "measureArrayForWithLen":
+  0.291 ±(99.9%) 0.003 us/op [Average]
+  (min, avg, max) = (0.291, 0.291, 0.291), stdev = 0.001
+  CI (99.9%): [0.288, 0.294] (assumes normal distribution)
+
+
+# JMH 1.11.1 (released 39 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.ArrayBenchmark.measureArrayForWithLen
+# Parameters: (n = 10000)
+
+# Run progress: 17.14% complete, ETA 00:03:21
+# Fork: 1 of 1
+# Warmup Iteration   1: 2.914 us/op
+# Warmup Iteration   2: 2.898 us/op
+# Warmup Iteration   3: 2.897 us/op
+Iteration   1: 2.896 us/op
+Iteration   2: 2.897 us/op
+Iteration   3: 2.897 us/op
+
+
+Result "measureArrayForWithLen":
+  2.897 ±(99.9%) 0.015 us/op [Average]
+  (min, avg, max) = (2.896, 2.897, 2.897), stdev = 0.001
+  CI (99.9%): [2.881, 2.912] (assumes normal distribution)
+
+
+# JMH 1.11.1 (released 39 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.ArrayBenchmark.measureArrayForWithLen
+# Parameters: (n = 100000)
+
+# Run progress: 20.00% complete, ETA 00:03:12
+# Fork: 1 of 1
+# Warmup Iteration   1: 29.057 us/op
+# Warmup Iteration   2: 29.068 us/op
+# Warmup Iteration   3: 28.919 us/op
+Iteration   1: 29.032 us/op
+Iteration   2: 28.821 us/op
+Iteration   3: 28.771 us/op
+
+
+Result "measureArrayForWithLen":
+  28.875 ±(99.9%) 2.530 us/op [Average]
+  (min, avg, max) = (28.771, 28.875, 29.032), stdev = 0.139
+  CI (99.9%): [26.345, 31.404] (assumes normal distribution)
+
+
+# JMH 1.11.1 (released 39 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.ArrayBenchmark.measureArrayForWithLen
+# Parameters: (n = 1000000)
+
+# Run progress: 22.86% complete, ETA 00:03:03
+# Fork: 1 of 1
+# Warmup Iteration   1: 290.486 us/op
+# Warmup Iteration   2: 288.362 us/op
+# Warmup Iteration   3: 288.890 us/op
+Iteration   1: 289.419 us/op
+Iteration   2: 289.926 us/op
+Iteration   3: 290.579 us/op
+
+
+Result "measureArrayForWithLen":
+  289.975 ±(99.9%) 10.608 us/op [Average]
+  (min, avg, max) = (289.419, 289.975, 290.579), stdev = 0.581
+  CI (99.9%): [279.367, 300.582] (assumes normal distribution)
+
+
+# JMH 1.11.1 (released 39 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.ArrayBenchmark.measureArrayForWithLen
+# Parameters: (n = 10000000)
+
+# Run progress: 25.71% complete, ETA 00:02:55
+# Fork: 1 of 1
+# Warmup Iteration   1: 3218.358 us/op
+# Warmup Iteration   2: 3199.161 us/op
+# Warmup Iteration   3: 3213.229 us/op
+Iteration   1: 3184.854 us/op
+Iteration   2: 3186.197 us/op
+Iteration   3: 3203.348 us/op
+
+
+Result "measureArrayForWithLen":
+  3191.466 ±(99.9%) 188.124 us/op [Average]
+  (min, avg, max) = (3184.854, 3191.466, 3203.348), stdev = 10.312
+  CI (99.9%): [3003.342, 3379.591] (assumes normal distribution)
+
+
+# JMH 1.11.1 (released 39 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.ArrayBenchmark.measureArrayListAdd
+# Parameters: (n = 1000)
+
+# Run progress: 28.57% complete, ETA 00:02:57
+# Fork: 1 of 1
+# Warmup Iteration   1: 7.068 us/op
+# Warmup Iteration   2: 7.506 us/op
+# Warmup Iteration   3: 8.050 us/op
+Iteration   1: 8.048 us/op
+Iteration   2: 8.057 us/op
+Iteration   3: 8.078 us/op
+
+
+Result "measureArrayListAdd":
+  8.061 ±(99.9%) 0.276 us/op [Average]
+  (min, avg, max) = (8.048, 8.061, 8.078), stdev = 0.015
+  CI (99.9%): [7.785, 8.337] (assumes normal distribution)
+
+
+# JMH 1.11.1 (released 39 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.ArrayBenchmark.measureArrayListAdd
+# Parameters: (n = 10000)
+
+# Run progress: 31.43% complete, ETA 00:02:48
+# Fork: 1 of 1
+# Warmup Iteration   1: 78.176 us/op
+# Warmup Iteration   2: 74.124 us/op
+# Warmup Iteration   3: 70.957 us/op
+Iteration   1: 70.681 us/op
+Iteration   2: 70.803 us/op
+Iteration   3: 70.871 us/op
+
+
+Result "measureArrayListAdd":
+  70.785 ±(99.9%) 1.753 us/op [Average]
+  (min, avg, max) = (70.681, 70.785, 70.871), stdev = 0.096
+  CI (99.9%): [69.032, 72.537] (assumes normal distribution)
+
+
+# JMH 1.11.1 (released 39 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.ArrayBenchmark.measureArrayListAdd
+# Parameters: (n = 100000)
+
+# Run progress: 34.29% complete, ETA 00:02:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 701.046 us/op
+# Warmup Iteration   2: 628.826 us/op
+# Warmup Iteration   3: 610.672 us/op
+Iteration   1: 614.996 us/op
+Iteration   2: 616.654 us/op
+Iteration   3: 619.320 us/op
+
+
+Result "measureArrayListAdd":
+  616.990 ±(99.9%) 39.796 us/op [Average]
+  (min, avg, max) = (614.996, 616.990, 619.320), stdev = 2.181
+  CI (99.9%): [577.193, 656.786] (assumes normal distribution)
+
+
+# JMH 1.11.1 (released 39 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.ArrayBenchmark.measureArrayListAdd
+# Parameters: (n = 1000000)
+
+# Run progress: 37.14% complete, ETA 00:02:32
+# Fork: 1 of 1
+# Warmup Iteration   1: 24357.554 us/op
+# Warmup Iteration   2: 22863.482 us/op
+# Warmup Iteration   3: 23203.033 us/op
+Iteration   1: 22718.442 us/op
+Iteration   2: 22886.710 us/op
+Iteration   3: 22602.675 us/op
+
+
+Result "measureArrayListAdd":
+  22735.942 ±(99.9%) 2605.642 us/op [Average]
+  (min, avg, max) = (22602.675, 22735.942, 22886.710), stdev = 142.824
+  CI (99.9%): [20130.301, 25341.584] (assumes normal distribution)
+
+
+# JMH 1.11.1 (released 39 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.ArrayBenchmark.measureArrayListAdd
+# Parameters: (n = 10000000)
+
+# Run progress: 40.00% complete, ETA 00:02:24
+# Fork: 1 of 1
+# Warmup Iteration   1: 323508.631 us/op
+# Warmup Iteration   2: 310919.864 us/op
+# Warmup Iteration   3: 310168.356 us/op
+Iteration   1: 306496.812 us/op
+Iteration   2: 300749.701 us/op
+Iteration   3: 297028.718 us/op
+
+
+Result "measureArrayListAdd":
+  301425.077 ±(99.9%) 87023.330 us/op [Average]
+  (min, avg, max) = (297028.718, 301425.077, 306496.812), stdev = 4770.042
+  CI (99.9%): [214401.746, 388448.407] (assumes normal distribution)
+
+
+# JMH 1.11.1 (released 39 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.ArrayBenchmark.measureArrayListAddWithSize
+# Parameters: (n = 1000)
+
+# Run progress: 42.86% complete, ETA 00:02:24
+# Fork: 1 of 1
+# Warmup Iteration   1: 4.865 us/op
+# Warmup Iteration   2: 4.986 us/op
+# Warmup Iteration   3: 6.134 us/op
+Iteration   1: 6.148 us/op
+Iteration   2: 6.138 us/op
+Iteration   3: 6.139 us/op
+
+
+Result "measureArrayListAddWithSize":
+  6.142 ±(99.9%) 0.094 us/op [Average]
+  (min, avg, max) = (6.138, 6.142, 6.148), stdev = 0.005
+  CI (99.9%): [6.047, 6.236] (assumes normal distribution)
+
+
+# JMH 1.11.1 (released 39 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.ArrayBenchmark.measureArrayListAddWithSize
+# Parameters: (n = 10000)
+
+# Run progress: 45.71% complete, ETA 00:02:16
+# Fork: 1 of 1
+# Warmup Iteration   1: 46.595 us/op
+# Warmup Iteration   2: 42.943 us/op
+# Warmup Iteration   3: 42.985 us/op
+Iteration   1: 42.895 us/op
+Iteration   2: 44.320 us/op
+Iteration   3: 59.298 us/op
+
+
+Result "measureArrayListAddWithSize":
+  48.838 ±(99.9%) 165.777 us/op [Average]
+  (min, avg, max) = (42.895, 48.838, 59.298), stdev = 9.087
+  CI (99.9%): [? 0, 214.615] (assumes normal distribution)
+
+
+# JMH 1.11.1 (released 39 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.ArrayBenchmark.measureArrayListAddWithSize
+# Parameters: (n = 100000)
+
+# Run progress: 48.57% complete, ETA 00:02:08
+# Fork: 1 of 1
+# Warmup Iteration   1: 481.313 us/op
+# Warmup Iteration   2: 465.831 us/op
+# Warmup Iteration   3: 446.224 us/op
+Iteration   1: 458.049 us/op
+Iteration   2: 439.746 us/op
+Iteration   3: 448.367 us/op
+
+
+Result "measureArrayListAddWithSize":
+  448.721 ±(99.9%) 167.058 us/op [Average]
+  (min, avg, max) = (439.746, 448.721, 458.049), stdev = 9.157
+  CI (99.9%): [281.663, 615.779] (assumes normal distribution)
+
+
+# JMH 1.11.1 (released 39 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.ArrayBenchmark.measureArrayListAddWithSize
+# Parameters: (n = 1000000)
+
+# Run progress: 51.43% complete, ETA 00:02:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 20252.630 us/op
+# Warmup Iteration   2: 19207.608 us/op
+# Warmup Iteration   3: 19247.638 us/op
+Iteration   1: 19281.181 us/op
+Iteration   2: 19042.600 us/op
+Iteration   3: 18977.592 us/op
+
+
+Result "measureArrayListAddWithSize":
+  19100.458 ±(99.9%) 2916.266 us/op [Average]
+  (min, avg, max) = (18977.592, 19100.458, 19281.181), stdev = 159.850
+  CI (99.9%): [16184.191, 22016.724] (assumes normal distribution)
+
+
+# JMH 1.11.1 (released 39 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.ArrayBenchmark.measureArrayListAddWithSize
+# Parameters: (n = 10000000)
+
+# Run progress: 54.29% complete, ETA 00:01:52
+# Fork: 1 of 1
+# Warmup Iteration   1: 257185.410 us/op
+# Warmup Iteration   2: 256249.984 us/op
+# Warmup Iteration   3: 255662.953 us/op
+Iteration   1: 259951.591 us/op
+Iteration   2: 253197.471 us/op
+Iteration   3: 255161.121 us/op
+
+
+Result "measureArrayListAddWithSize":
+  256103.394 ±(99.9%) 63383.338 us/op [Average]
+  (min, avg, max) = (253197.471, 256103.394, 259951.591), stdev = 3474.255
+  CI (99.9%): [192720.056, 319486.732] (assumes normal distribution)
+
+
+# JMH 1.11.1 (released 39 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.ArrayBenchmark.measureArrayListFor
+# Parameters: (n = 1000)
+
+# Run progress: 57.14% complete, ETA 00:01:48
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.646 us/op
+# Warmup Iteration   2: 0.639 us/op
+# Warmup Iteration   3: 0.601 us/op
+Iteration   1: 0.602 us/op
+Iteration   2: 0.604 us/op
+Iteration   3: 0.603 us/op
+
+
+Result "measureArrayListFor":
+  0.603 ±(99.9%) 0.018 us/op [Average]
+  (min, avg, max) = (0.602, 0.603, 0.604), stdev = 0.001
+  CI (99.9%): [0.585, 0.621] (assumes normal distribution)
+
+
+# JMH 1.11.1 (released 39 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.ArrayBenchmark.measureArrayListFor
+# Parameters: (n = 10000)
+
+# Run progress: 60.00% complete, ETA 00:01:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 8.570 us/op
+# Warmup Iteration   2: 8.405 us/op
+# Warmup Iteration   3: 8.418 us/op
+Iteration   1: 8.407 us/op
+Iteration   2: 8.421 us/op
+Iteration   3: 8.402 us/op
+
+
+Result "measureArrayListFor":
+  8.410 ±(99.9%) 0.179 us/op [Average]
+  (min, avg, max) = (8.402, 8.410, 8.421), stdev = 0.010
+  CI (99.9%): [8.231, 8.588] (assumes normal distribution)
+
+
+# JMH 1.11.1 (released 39 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.ArrayBenchmark.measureArrayListFor
+# Parameters: (n = 100000)
+
+# Run progress: 62.86% complete, ETA 00:01:32
+# Fork: 1 of 1
+# Warmup Iteration   1: 160.999 us/op
+# Warmup Iteration   2: 157.998 us/op
+# Warmup Iteration   3: 158.826 us/op
+Iteration   1: 157.821 us/op
+Iteration   2: 158.841 us/op
+Iteration   3: 157.933 us/op
+
+
+Result "measureArrayListFor":
+  158.198 ±(99.9%) 10.211 us/op [Average]
+  (min, avg, max) = (157.821, 158.198, 158.841), stdev = 0.560
+  CI (99.9%): [147.987, 168.409] (assumes normal distribution)
+
+
+# JMH 1.11.1 (released 39 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.ArrayBenchmark.measureArrayListFor
+# Parameters: (n = 1000000)
+
+# Run progress: 65.71% complete, ETA 00:01:25
+# Fork: 1 of 1
+# Warmup Iteration   1: 7906.234 us/op
+# Warmup Iteration   2: 7770.426 us/op
+# Warmup Iteration   3: 7779.879 us/op
+Iteration   1: 7797.861 us/op
+Iteration   2: 7815.997 us/op
+Iteration   3: 7805.464 us/op
+
+
+Result "measureArrayListFor":
+  7806.441 ±(99.9%) 166.156 us/op [Average]
+  (min, avg, max) = (7797.861, 7806.441, 7815.997), stdev = 9.108
+  CI (99.9%): [7640.284, 7972.597] (assumes normal distribution)
+
+
+# JMH 1.11.1 (released 39 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.ArrayBenchmark.measureArrayListFor
+# Parameters: (n = 10000000)
+
+# Run progress: 68.57% complete, ETA 00:01:17
+# Fork: 1 of 1
+# Warmup Iteration   1: 142237.424 us/op
+# Warmup Iteration   2: 141372.269 us/op
+# Warmup Iteration   3: 140961.035 us/op
+Iteration   1: 140934.715 us/op
+Iteration   2: 141801.542 us/op
+Iteration   3: 141529.546 us/op
+
+
+Result "measureArrayListFor":
+  141421.934 ±(99.9%) 8087.802 us/op [Average]
+  (min, avg, max) = (140934.715, 141421.934, 141801.542), stdev = 443.320
+  CI (99.9%): [133334.133, 149509.736] (assumes normal distribution)
+
+
+# JMH 1.11.1 (released 39 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.ArrayBenchmark.measureArrayListForWithLen
+# Parameters: (n = 1000)
+
+# Run progress: 71.43% complete, ETA 00:01:12
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.596 us/op
+# Warmup Iteration   2: 0.593 us/op
+# Warmup Iteration   3: 0.602 us/op
+Iteration   1: 0.600 us/op
+Iteration   2: 0.601 us/op
+Iteration   3: 0.601 us/op
+
+
+Result "measureArrayListForWithLen":
+  0.601 ±(99.9%) 0.010 us/op [Average]
+  (min, avg, max) = (0.600, 0.601, 0.601), stdev = 0.001
+  CI (99.9%): [0.591, 0.611] (assumes normal distribution)
+
+
+# JMH 1.11.1 (released 39 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.ArrayBenchmark.measureArrayListForWithLen
+# Parameters: (n = 10000)
+
+# Run progress: 74.29% complete, ETA 00:01:04
+# Fork: 1 of 1
+# Warmup Iteration   1: 8.561 us/op
+# Warmup Iteration   2: 8.415 us/op
+# Warmup Iteration   3: 8.414 us/op
+Iteration   1: 8.380 us/op
+Iteration   2: 8.397 us/op
+Iteration   3: 8.407 us/op
+
+
+Result "measureArrayListForWithLen":
+  8.395 ±(99.9%) 0.247 us/op [Average]
+  (min, avg, max) = (8.380, 8.395, 8.407), stdev = 0.014
+  CI (99.9%): [8.148, 8.642] (assumes normal distribution)
+
+
+# JMH 1.11.1 (released 39 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.ArrayBenchmark.measureArrayListForWithLen
+# Parameters: (n = 100000)
+
+# Run progress: 77.14% complete, ETA 00:00:57
+# Fork: 1 of 1
+# Warmup Iteration   1: 160.434 us/op
+# Warmup Iteration   2: 159.880 us/op
+# Warmup Iteration   3: 158.667 us/op
+Iteration   1: 157.736 us/op
+Iteration   2: 160.426 us/op
+Iteration   3: 159.315 us/op
+
+
+Result "measureArrayListForWithLen":
+  159.159 ±(99.9%) 24.658 us/op [Average]
+  (min, avg, max) = (157.736, 159.159, 160.426), stdev = 1.352
+  CI (99.9%): [134.501, 183.817] (assumes normal distribution)
+
+
+# JMH 1.11.1 (released 39 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.ArrayBenchmark.measureArrayListForWithLen
+# Parameters: (n = 1000000)
+
+# Run progress: 80.00% complete, ETA 00:00:49
+# Fork: 1 of 1
+# Warmup Iteration   1: 7981.114 us/op
+# Warmup Iteration   2: 7900.928 us/op
+# Warmup Iteration   3: 7853.357 us/op
+Iteration   1: 7774.611 us/op
+Iteration   2: 7794.468 us/op
+Iteration   3: 7781.712 us/op
+
+
+Result "measureArrayListForWithLen":
+  7783.597 ±(99.9%) 183.564 us/op [Average]
+  (min, avg, max) = (7774.611, 7783.597, 7794.468), stdev = 10.062
+  CI (99.9%): [7600.033, 7967.161] (assumes normal distribution)
+
+
+# JMH 1.11.1 (released 39 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.ArrayBenchmark.measureArrayListForWithLen
+# Parameters: (n = 10000000)
+
+# Run progress: 82.86% complete, ETA 00:00:42
+# Fork: 1 of 1
+# Warmup Iteration   1: 142325.636 us/op
+# Warmup Iteration   2: 140682.959 us/op
+# Warmup Iteration   3: 141330.069 us/op
+Iteration   1: 141019.674 us/op
+Iteration   2: 140618.080 us/op
+Iteration   3: 140068.129 us/op
+
+
+Result "measureArrayListForWithLen":
+  140568.628 ±(99.9%) 8714.961 us/op [Average]
+  (min, avg, max) = (140068.129, 140568.628, 141019.674), stdev = 477.696
+  CI (99.9%): [131853.666, 149283.589] (assumes normal distribution)
+
+
+# JMH 1.11.1 (released 39 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.ArrayBenchmark.measureArrayListForeach
+# Parameters: (n = 1000)
+
+# Run progress: 85.71% complete, ETA 00:00:36
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.710 us/op
+# Warmup Iteration   2: 0.689 us/op
+# Warmup Iteration   3: 0.650 us/op
+Iteration   1: 0.651 us/op
+Iteration   2: 0.647 us/op
+Iteration   3: 0.645 us/op
+
+
+Result "measureArrayListForeach":
+  0.648 ±(99.9%) 0.049 us/op [Average]
+  (min, avg, max) = (0.645, 0.648, 0.651), stdev = 0.003
+  CI (99.9%): [0.598, 0.697] (assumes normal distribution)
+
+
+# JMH 1.11.1 (released 39 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.ArrayBenchmark.measureArrayListForeach
+# Parameters: (n = 10000)
+
+# Run progress: 88.57% complete, ETA 00:00:28
+# Fork: 1 of 1
+# Warmup Iteration   1: 9.444 us/op
+# Warmup Iteration   2: 8.499 us/op
+# Warmup Iteration   3: 8.445 us/op
+Iteration   1: 8.441 us/op
+Iteration   2: 8.375 us/op
+Iteration   3: 8.416 us/op
+
+
+Result "measureArrayListForeach":
+  8.411 ±(99.9%) 0.601 us/op [Average]
+  (min, avg, max) = (8.375, 8.411, 8.441), stdev = 0.033
+  CI (99.9%): [7.810, 9.012] (assumes normal distribution)
+
+
+# JMH 1.11.1 (released 39 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.ArrayBenchmark.measureArrayListForeach
+# Parameters: (n = 100000)
+
+# Run progress: 91.43% complete, ETA 00:00:21
+# Fork: 1 of 1
+# Warmup Iteration   1: 163.569 us/op
+# Warmup Iteration   2: 161.084 us/op
+# Warmup Iteration   3: 161.510 us/op
+Iteration   1: 162.145 us/op
+Iteration   2: 161.915 us/op
+Iteration   3: 162.574 us/op
+
+
+Result "measureArrayListForeach":
+  162.211 ±(99.9%) 6.099 us/op [Average]
+  (min, avg, max) = (161.915, 162.211, 162.574), stdev = 0.334
+  CI (99.9%): [156.113, 168.310] (assumes normal distribution)
+
+
+# JMH 1.11.1 (released 39 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.ArrayBenchmark.measureArrayListForeach
+# Parameters: (n = 1000000)
+
+# Run progress: 94.29% complete, ETA 00:00:14
+# Fork: 1 of 1
+# Warmup Iteration   1: 7963.603 us/op
+# Warmup Iteration   2: 7858.992 us/op
+# Warmup Iteration   3: 7863.024 us/op
+Iteration   1: 7850.439 us/op
+Iteration   2: 7876.941 us/op
+Iteration   3: 7821.220 us/op
+
+
+Result "measureArrayListForeach":
+  7849.533 ±(99.9%) 508.482 us/op [Average]
+  (min, avg, max) = (7821.220, 7849.533, 7876.941), stdev = 27.872
+  CI (99.9%): [7341.051, 8358.016] (assumes normal distribution)
+
+
+# JMH 1.11.1 (released 39 days ago)
+# VM version: JDK 1.8.0_60, VM 25.60-b23
+# VM invoker: C:\Program Files\Java\jre1.8.0_60\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: sg.yikjiun.blog.ArrayBenchmark.measureArrayListForeach
+# Parameters: (n = 10000000)
+
+# Run progress: 97.14% complete, ETA 00:00:07
+# Fork: 1 of 1
+# Warmup Iteration   1: 143491.099 us/op
+# Warmup Iteration   2: 140737.798 us/op
+# Warmup Iteration   3: 139656.135 us/op
+Iteration   1: 140010.489 us/op
+Iteration   2: 139905.571 us/op
+Iteration   3: 141384.348 us/op
+
+
+Result "measureArrayListForeach":
+  140433.470 ±(99.9%) 15053.888 us/op [Average]
+  (min, avg, max) = (139905.571, 140433.470, 141384.348), stdev = 825.154
+  CI (99.9%): [125379.582, 155487.357] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:04:13
+
+Benchmark                                        (n)  Mode  Cnt       Score       Error  Units
+ArrayBenchmark.measureArrayFor                  1000  avgt    3       0.291 ±     0.009  us/op
+ArrayBenchmark.measureArrayFor                 10000  avgt    3       2.903 ±     0.108  us/op
+ArrayBenchmark.measureArrayFor                100000  avgt    3      28.936 ±     1.326  us/op
+ArrayBenchmark.measureArrayFor               1000000  avgt    3     291.625 ±    10.066  us/op
+ArrayBenchmark.measureArrayFor              10000000  avgt    3    3208.519 ±   231.186  us/op
+ArrayBenchmark.measureArrayForWithLen           1000  avgt    3       0.291 ±     0.003  us/op
+ArrayBenchmark.measureArrayForWithLen          10000  avgt    3       2.897 ±     0.015  us/op
+ArrayBenchmark.measureArrayForWithLen         100000  avgt    3      28.875 ±     2.530  us/op
+ArrayBenchmark.measureArrayForWithLen        1000000  avgt    3     289.975 ±    10.608  us/op
+ArrayBenchmark.measureArrayForWithLen       10000000  avgt    3    3191.466 ±   188.124  us/op
+ArrayBenchmark.measureArrayListAdd              1000  avgt    3       8.061 ±     0.276  us/op
+ArrayBenchmark.measureArrayListAdd             10000  avgt    3      70.785 ±     1.753  us/op
+ArrayBenchmark.measureArrayListAdd            100000  avgt    3     616.990 ±    39.796  us/op
+ArrayBenchmark.measureArrayListAdd           1000000  avgt    3   22735.942 ±  2605.642  us/op
+ArrayBenchmark.measureArrayListAdd          10000000  avgt    3  301425.077 ± 87023.330  us/op
+ArrayBenchmark.measureArrayListAddWithSize      1000  avgt    3       6.142 ±     0.094  us/op
+ArrayBenchmark.measureArrayListAddWithSize     10000  avgt    3      48.838 ±   165.777  us/op
+ArrayBenchmark.measureArrayListAddWithSize    100000  avgt    3     448.721 ±   167.058  us/op
+ArrayBenchmark.measureArrayListAddWithSize   1000000  avgt    3   19100.458 ±  2916.266  us/op
+ArrayBenchmark.measureArrayListAddWithSize  10000000  avgt    3  256103.394 ± 63383.338  us/op
+ArrayBenchmark.measureArrayListFor              1000  avgt    3       0.603 ±     0.018  us/op
+ArrayBenchmark.measureArrayListFor             10000  avgt    3       8.410 ±     0.179  us/op
+ArrayBenchmark.measureArrayListFor            100000  avgt    3     158.198 ±    10.211  us/op
+ArrayBenchmark.measureArrayListFor           1000000  avgt    3    7806.441 ±   166.156  us/op
+ArrayBenchmark.measureArrayListFor          10000000  avgt    3  141421.934 ±  8087.802  us/op
+ArrayBenchmark.measureArrayListForWithLen       1000  avgt    3       0.601 ±     0.010  us/op
+ArrayBenchmark.measureArrayListForWithLen      10000  avgt    3       8.395 ±     0.247  us/op
+ArrayBenchmark.measureArrayListForWithLen     100000  avgt    3     159.159 ±    24.658  us/op
+ArrayBenchmark.measureArrayListForWithLen    1000000  avgt    3    7783.597 ±   183.564  us/op
+ArrayBenchmark.measureArrayListForWithLen   10000000  avgt    3  140568.628 ±  8714.961  us/op
+ArrayBenchmark.measureArrayListForeach          1000  avgt    3       0.648 ±     0.049  us/op
+ArrayBenchmark.measureArrayListForeach         10000  avgt    3       8.411 ±     0.601  us/op
+ArrayBenchmark.measureArrayListForeach        100000  avgt    3     162.211 ±     6.099  us/op
+ArrayBenchmark.measureArrayListForeach       1000000  avgt    3    7849.533 ±   508.482  us/op
+ArrayBenchmark.measureArrayListForeach      10000000  avgt    3  140433.470 ± 15053.888  us/op
