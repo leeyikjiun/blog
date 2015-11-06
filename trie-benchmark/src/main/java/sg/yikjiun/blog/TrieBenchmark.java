@@ -31,8 +31,8 @@ import com.googlecode.concurrenttrees.radix.node.concrete.voidvalue.VoidValue;
 
 import org.openjdk.jmh.annotations.Benchmark;
 import org.openjdk.jmh.annotations.BenchmarkMode;
-import org.openjdk.jmh.annotations.Measurement;
 import org.openjdk.jmh.annotations.Mode;
+import org.openjdk.jmh.annotations.OutputTimeUnit;
 import org.openjdk.jmh.annotations.Scope;
 import org.openjdk.jmh.annotations.Setup;
 import org.openjdk.jmh.annotations.State;
@@ -59,9 +59,9 @@ import edu.princeton.cs.algs4.TrieST;
 /**
  * @author Lee Yik Jiun
  */
-@State(Scope.Thread)
 @BenchmarkMode(Mode.AverageTime)
-@Measurement(timeUnit = TimeUnit.MILLISECONDS)
+@OutputTimeUnit(TimeUnit.MILLISECONDS)
+@State(Scope.Thread)
 public class TrieBenchmark {
     public static void main(String[] args) throws RunnerException {
         Options opt = new OptionsBuilder()
