@@ -7,7 +7,7 @@ name:               "Yik Jiun"
 
 # URL
 baseurl:            "/blog"
-#baseurl:            "" #For Root Domain
+rooturl:            "" #For Root Domain
 permalink:          /:year/:month/:day/:title.html
 
 # Markdown
@@ -16,9 +16,9 @@ markdown:           rdiscount
 # Navigation
 nav:
   - name:           "Blog"
-    href:           "//www.yikjiun.com/blog"
+    href:           ""
   - name:           "About"
-    href:           "about"
+    href:           "//www.yikjiun.com/about"
 
 # Sass
 sass:
@@ -38,6 +38,10 @@ defaults:
       type:         "posts"
     values:
       layout:       "post"
+
+var_read: Read # Text after each post summary on the homepage.
+var_less_than_a_minute_read: Less than a minute read
+var_min_read: min read # Text after reading time. Example: 5 min read.
 
 # Build settings
 markdown: kramdown

@@ -1,7 +1,6 @@
 ---
-title: Use a Deque, not a Stack
+title: "Use a Deque, not a Stack"
 ---
-
 If you're looking to use a Stack in Java, use a Deque instead. And here's why.
 
 The first thing that I've noticed when I looked into the source code of Stack is that it extends Vector. Vector is a synchronized class and we've all been told to use the faster ArrayList instead as it is unsynchronized. Even if we need a synchronized version of ArrayList, we use Collections.synchronizedList instead of the old Vector. Since Stack extends Vector, it is going to be slow for single threaded applications.
