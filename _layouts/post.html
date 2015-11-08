@@ -1,15 +1,21 @@
 ---
 layout: default
 ---
+{% assign minutes = page.content | number_of_words | divided_by: 180 %}
+{% if minutes == 0 %}
+	{% assign read-time = site.var_less_than_a_minute_read %}
+{% else %}
+	{% assign read-time = minutes | append: "&nbsp;" | append: site.var_min_read %}
+{% endif %}
 <header class="masthead">
   <h1 class="masthead-title--small">
-    <a href="{{ root.baseurl }}/">{{ site.name }}</a>
+    <a href="{{ site.baseurl }}/">{{ site.name }}</a>
   </h1>
 </header>      
 <div class="content post">
   <h1 class="post-title">{{ page.title }}</h1>
   <div class="post-date">
-    <time>{{ page.date | date_to_string }}</time>
+    <time>{{ page.date | date_to_string }}</time> • {{ read-time }}
   </div>
   {{ content }}
 </div>

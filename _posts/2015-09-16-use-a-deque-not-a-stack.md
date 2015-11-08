@@ -1,5 +1,6 @@
 ---
 title: "Use a Deque, not a Stack"
+tags: Java, Deque, Stack
 ---
 If you're looking to use a Stack in Java, use a Deque instead. And here's why.
 
